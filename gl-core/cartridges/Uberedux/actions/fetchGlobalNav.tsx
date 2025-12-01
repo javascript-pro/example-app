@@ -1,6 +1,6 @@
 // core/gl-core/actions/fetchGlobalNav.tsx
-import { TUbereduxDispatch } from '../../gl-core/types';
-import { setUbereduxKey } from '../../gl-core';
+import { TUbereduxDispatch } from '../../../../gl-core/types';
+import { setUbereduxKey } from '../../../../gl-core';
 
 const FIVE_MINUTES = 5 * 60 * 1000;
 

@@ -24,7 +24,7 @@ export default function UserMenu() {
   return (
     <>
       <List dense disablePadding>
-        {firebaseAuthUrl && (
+        {/* {firebaseAuthUrl && (
           <ListItemButton
             component="a"
             href={firebaseAuthUrl}
@@ -36,7 +36,7 @@ export default function UserMenu() {
             </ListItemIcon>
             <ListItemText primary={`Firebase Auth`} />
           </ListItemButton>
-        )}
+        )} */}
 
         <SignOut mode="listitem" />
       </List>

@@ -7,7 +7,6 @@ import { toggleHideImage } from './toggleHideImage';
 import { resend } from './resend';
 import { reset } from './reset';
 import { log } from './log';
-import { fetchGlobalNav } from './fetchGlobalNav';
 
 export {
   resend,
@@ -19,5 +18,4 @@ export {
   routeTo,
   toggleFeedback,
   toggleHideImage,
-  fetchGlobalNav,
 };

@@ -2,6 +2,7 @@
 'use client';
 import * as React from 'react';
 import {
+  Box,
   Grid,
   Dialog,
   DialogActions,
@@ -12,14 +13,17 @@ import {
   AccordionDetails,
 } from '@mui/material';
 import { useDispatch, useIsMobile, Icon } from '../../../../gl-core';
-import { useDesignSystem } from '../../DesignSystem';
+import { 
+  useDesignSystem,
+  MenuSystem,
+} from '../../DesignSystem';
 import {
   useUser,
   setPaywallKey,
   usePaywall,
   SignIn,
-  UserMenu,
   User,
+  useIsUberUser,
 } from '../../Paywall';
 
 export default function UserDialog() {
@@ -30,6 +34,7 @@ export default function UserDialog() {
   const user = useUser();
   const paywall = usePaywall();
   const { userDialog } = paywall;
+  const isUberUser = useIsUberUser();
 
   const handleClose = () => {
     dispatch(setPaywallKey('userDialog', false));
@@ -46,10 +51,16 @@ export default function UserDialog() {
       >
         <DialogContent>
           <Grid container spacing={1} sx={{ mb: 0 }}>
-            <Grid size={{ xs: 12 }}>
+            <Grid size={{ xs: 12, md: 6 }}>
+              <Box sx={{mt: 3}}>
+                <MenuSystem />
+              </Box>
               <User />
             </Grid>
-            <Grid size={{ xs: 12 }}>{user ? <UserMenu /> : <SignIn />}</Grid>
+            <Grid size={{ xs: 12, md: 6 }}>
+              
+              {user ? null : <SignIn />}
+            </Grid>
           </Grid>
         </DialogContent>
 
@@ -58,8 +69,7 @@ export default function UserDialog() {
             <Icon icon="close" />
           </IconButton>
         </DialogActions>
-        {user && (
-          <Grid size={{ xs: 12 }}>
+        {user && isUberUser && (
             <Accordion sx={{ mx: 2, background: 0, boxShadow: 0 }}>
               <AccordionSummary expandIcon={<Icon icon="up" color="primary" />}>
                 User Data
@@ -70,7 +80,6 @@ export default function UserDialog() {
                 </pre>
               </AccordionDetails>
             </Accordion>
-          </Grid>
         )}
       </Dialog>
     </>

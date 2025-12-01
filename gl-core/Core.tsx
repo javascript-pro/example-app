@@ -18,7 +18,6 @@ import {
   Tooltip,
 } from '@mui/material';
 import {
-  fetchGlobalNav,
   RenderMarkdown,
   PageBreadcrumb,
   useIsMobile,
@@ -37,7 +36,7 @@ import {
   NewContent,
   toggleLoading,
 } from './cartridges/DesignSystem';
-import { useNewContent } from './cartridges/Uberedux';
+import { useNewContent, fetchGlobalNav } from './cartridges/Uberedux';
 
 const config = configRaw as TConfig;
 
