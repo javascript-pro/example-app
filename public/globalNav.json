@@ -135,20 +135,6 @@
                 "type": "folder",
                 "children": [
                   {
-                    "title": "Content Manager",
-                    "slug": "/work/example-app/docs/content-manager",
-                    "order": 15,
-                    "icon": "good-fit",
-                    "image": "/png/n64/test.png",
-                    "type": "file",
-                    "tags": [
-                      "firebase",
-                      "cms",
-                      "contentmanager"
-                    ],
-                    "excerpt": "Manage content stored in a Firebase collection\n\n[GitHub url=\"https://github.com/javascriptpro/core/tree/master/glcore/cartridges/ContentManager\" label=\"ContentManager\"]\n\nWe’re introducing a new cartri"
-                  },
-                  {
                     "title": "Design System",
                     "slug": "/work/example-app/docs/design-system",
                     "order": 25,
@@ -1063,7 +1049,7 @@
             "type": "folder",
             "children": [],
             "icon": "lingua",
-            "image": "/png/3rdParty/react.png",
+            "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
             "tags": [
               "expertise",
               "fields",

@@ -3,6 +3,6 @@ import { TPaywallState } from './types';
 
 export const initialState: TPaywallState = {
   cartridge: 'paywall',
-  dialog: false,
+  userDialog: false,
   user: null,
 };

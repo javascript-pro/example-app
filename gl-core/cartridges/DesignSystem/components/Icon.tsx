@@ -871,7 +871,7 @@ export default function Icon({ icon, color }: TIconShape) {
       break;
 
     case 'paywall':
-      iconFragment = <UserIcon color={color} />;
+      iconFragment = <FingerprintIcon color={color} />;
       break;
 
     case 'private':

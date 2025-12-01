@@ -2,7 +2,7 @@
 
 export type TPaywallState = {
   cartridge: string;
-  dialog?: boolean;
+  userDialog?: boolean;
   user?: any;
   // [key: string]: any;
 };

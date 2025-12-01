@@ -23,7 +23,6 @@ export default function UserMenu() {
 
   return (
     <>
-    
       <List dense disablePadding>
         {firebaseAuthUrl && (
           <ListItemButton
@@ -35,9 +34,7 @@ export default function UserMenu() {
             <ListItemIcon>
               <Icon icon="link" color="primary" />
             </ListItemIcon>
-            <ListItemText 
-              primary={`Firebase Auth`} 
-            />
+            <ListItemText primary={`Firebase Auth`} />
           </ListItemButton>
         )}
 

@@ -15,6 +15,7 @@ import {
   Grid,
   Skeleton,
   Typography,
+  Tooltip,
 } from '@mui/material';
 import {
   fetchGlobalNav,
@@ -95,8 +96,6 @@ export default function Core({ frontmatter, body = null }: TCore) {
                     mt: 0,
                   }}
                 >
-                  <User />
-
                   {Array.isArray(siblings) && siblings.length > 0 ? (
                     <Siblings />
                   ) : (
@@ -130,12 +129,14 @@ export default function Core({ frontmatter, body = null }: TCore) {
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
                   {newContent && newContent.length > 0 && (
                     <Box sx={{ ml: -1 }}>
-                      <IconButton
-                        color="primary"
-                        onClick={() => setShowWhatsNew((v) => !v)}
-                      >
-                        <Icon icon={showWhatsNew ? 'up' : 'down'} />
-                      </IconButton>
+                      <Tooltip title="What's New" arrow>
+                        <IconButton
+                          color="primary"
+                          onClick={() => setShowWhatsNew((v) => !v)}
+                        >
+                          <Icon icon={'news'} />
+                        </IconButton>
+                      </Tooltip>
                     </Box>
                   )}
 

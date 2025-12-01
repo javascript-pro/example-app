@@ -68,9 +68,8 @@ export default function SignIn() {
       <Grid size={{ xs: 12 }}>
         <CardContent>
           <Typography variant="body2" sx={{ mb: 3 }}>
-            This content requires authentication. Please sign in using one of
-            the providers below. If you need access but can't use these
-            options, let us know
+            Auth required. Please sign in using one of the providers below. If
+            you need access but can't use these options, let us know
           </Typography>
 
           <Button
@@ -102,7 +101,6 @@ export default function SignIn() {
           >
             Twitter
           </Button>
-
         </CardContent>
       </Grid>
     </Grid>

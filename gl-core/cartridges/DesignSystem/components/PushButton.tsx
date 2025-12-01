@@ -1,35 +1,34 @@
-'use client';
 // /Users/goldlabel/GitHub/core/gl-core/cartridges/DesignSystem/components/PushButton.tsx
-
+'use client';
 import * as React from 'react';
-import { TAuthForm } from '../../../../gl-core/types';
-import { Fab, IconButton } from '@mui/material';
+import { IconButton, Tooltip } from '@mui/material';
 import { useDispatch, Icon } from '../../../../gl-core';
-import { setDesignSystemKey } from '../../DesignSystem';
+import { setPaywallKey, usePaywall } from '../../Paywall';
 
-export default function PushButton({}: TAuthForm) {
+export default function PushButton() {
   const dispatch = useDispatch();
-  const openDesignSystem = () => {
-    dispatch(
-      setDesignSystemKey('dialog', {
-        icon: 'fingerprint',
-      }),
-    );
+  const paywall = usePaywall();
+  const { userDialog } = paywall || false;
+
+  const toggleUserDialog = () => {
+    dispatch(setPaywallKey('userDialog', !userDialog));
   };
 
   return (
-    <IconButton
-      color="primary"
-      sx={{
-        zIndex: (theme) => theme.zIndex.modal - 2,
-        boxShadow: 0,
-        position: 'fixed',
-        bottom: 8,
-        right: 8,
-      }}
-      onClick={openDesignSystem}
-    >
-      <Icon icon="fingerprint" />
-    </IconButton>
+    <Tooltip title="Account">
+      <IconButton
+        onClick={toggleUserDialog}
+        color="primary"
+        sx={{
+          zIndex: (theme) => theme.zIndex.modal - 2,
+          boxShadow: 0,
+          position: 'fixed',
+          bottom: 8,
+          right: 8,
+        }}
+      >
+        <Icon icon="paywall" />
+      </IconButton>
+    </Tooltip>
   );
 }

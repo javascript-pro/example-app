@@ -1,4 +1,4 @@
-# Goldlabel Example App
+# Goldlabel
 
 ![Image](https://goldlabel.pro/png/n64/flickr.png)
 

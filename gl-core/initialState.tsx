@@ -4,7 +4,6 @@ import config from './config.json';
 import { initialStateLingua } from './cartridges/Lingua';
 import { initialStatePaywall } from './cartridges/Paywall';
 import { initialStateDesignSystem } from './cartridges/DesignSystem';
-import { initialStateContentManager } from './cartridges/ContentManager';
 
 export const initialState: any = {
   config,
@@ -14,5 +13,4 @@ export const initialState: any = {
   lingua: initialStateLingua,
   paywall: initialStatePaywall,
   designSystem: initialStateDesignSystem,
-  contentManager: initialStateContentManager,
 };

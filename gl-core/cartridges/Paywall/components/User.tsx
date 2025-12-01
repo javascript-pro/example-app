@@ -25,13 +25,14 @@ export default function User() {
   };
 
   if (!user) {
-    return (
-      <Box sx={{ px: 2 }}>
-        <IconButton onClick={toggleDialogOpen} sx={{ ml: -1 }} color="primary">
-          <Icon icon="paywall" />
-        </IconButton>
-      </Box>
-    );
+    return null;
+    // return (
+    //   <Box sx={{ px: 2 }}>
+    //     <IconButton onClick={toggleDialogOpen} sx={{ ml: -1 }} color="primary">
+    //       <Icon icon="paywall" />
+    //     </IconButton>
+    //   </Box>
+    // );
   }
 
   const provider = user.providerData?.[0] ?? null;
@@ -39,14 +40,13 @@ export default function User() {
     return (
       <CardHeader
         avatar={
-          
-                  <>
-                  <IconButton onClick={toggleDialogOpen} sx={{ ml: -2 }}>
-                    <Avatar src={user.photoURL || provider?.photoURL || undefined} />
-                  </IconButton>
-                  {
-                    isUberUser && <Chip label="Uber User" size="small" color="primary" />
-                  }
+          <>
+            <IconButton onClick={toggleDialogOpen} sx={{ ml: -2 }}>
+              <Avatar src={user.photoURL || provider?.photoURL || undefined} />
+            </IconButton>
+            {isUberUser && (
+              <Chip label="Uber User" size="small" color="primary" />
+            )}
           </>
         }
         // title={user.displayName || provider?.displayName || 'Unknown user'}

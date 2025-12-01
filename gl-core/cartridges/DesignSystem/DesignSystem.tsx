@@ -24,7 +24,7 @@ export default function DesignSystem({
   const newtheme = useMUITheme(theme as TTheme);
   const { feedbackTested } = useDesignSystem();
   const dispatch = useDispatch();
-  const {version} = useSlice();
+  const { version } = useSlice();
   React.useEffect(() => {
     if (!feedbackTested) {
       const feedback: TFeedback = {

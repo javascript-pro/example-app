@@ -4,8 +4,6 @@ import * as React from 'react';
 import {
   Grid,
   Dialog,
-  DialogTitle,
-  CardHeader,
   DialogActions,
   DialogContent,
   IconButton,
@@ -14,7 +12,7 @@ import {
   AccordionDetails,
 } from '@mui/material';
 import { useDispatch, useIsMobile, Icon } from '../../../../gl-core';
-import { useDesignSystem, setDesignSystemKey } from '../../DesignSystem';
+import { useDesignSystem } from '../../DesignSystem';
 import {
   useUser,
   setPaywallKey,
@@ -31,37 +29,21 @@ export default function UserDialog() {
   const { fullScreen } = ds;
   const user = useUser();
   const paywall = usePaywall();
-  const { dialog } = paywall;
+  const { userDialog } = paywall;
 
   const handleClose = () => {
-    dispatch(setPaywallKey('dialog', false));
+    dispatch(setPaywallKey('userDialog', false));
   };
-
-  const toggleFullscreen = () => {
-    dispatch(setDesignSystemKey('fullScreen', !fullScreen));
-  };
-
-  if (!dialog) return null;
 
   return (
     <>
       <Dialog
         fullWidth
         fullScreen={isMobile || fullScreen}
-        open={Boolean(dialog)}
+        open={Boolean(userDialog)}
         onClose={handleClose}
         maxWidth={'sm'}
       >
-        <DialogTitle>
-          <CardHeader
-            action={
-              <IconButton color="primary" onClick={toggleFullscreen}>
-                <Icon icon="fullscreen" />
-              </IconButton>
-            }
-          />
-        </DialogTitle>
-
         <DialogContent>
           <Grid container spacing={1} sx={{ mb: 0 }}>
             <Grid size={{ xs: 12 }}>
@@ -71,26 +53,25 @@ export default function UserDialog() {
           </Grid>
         </DialogContent>
 
-            {user && (
-              <Grid size={{ xs: 12 }}>
-                <Accordion variant="outlined">
-                  <AccordionSummary expandIcon={<Icon icon="up" />}>
-                    User Data
-                  </AccordionSummary>
-                  <AccordionDetails>
-                    <pre style={{ fontSize: '10px', margin: 0 }}>
-                      user: {JSON.stringify(user, null, 2)}
-                    </pre>
-                  </AccordionDetails>
-                </Accordion>
-              </Grid>
-            )}
-
         <DialogActions>
           <IconButton color="primary" onClick={handleClose}>
             <Icon icon="close" />
           </IconButton>
         </DialogActions>
+        {user && (
+          <Grid size={{ xs: 12 }}>
+            <Accordion sx={{ mx: 2, background: 0, boxShadow: 0 }}>
+              <AccordionSummary expandIcon={<Icon icon="up" color="primary" />}>
+                User Data
+              </AccordionSummary>
+              <AccordionDetails>
+                <pre style={{ fontSize: '10px', margin: 0 }}>
+                  user: {JSON.stringify(user, null, 2)}
+                </pre>
+              </AccordionDetails>
+            </Accordion>
+          </Grid>
+        )}
       </Dialog>
     </>
   );
