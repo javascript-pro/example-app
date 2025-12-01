@@ -12,6 +12,7 @@ import {
 } from '@mui/material';
 import { useDispatch, Icon } from '../../../../gl-core';
 import { useUser, setPaywallKey, usePaywall, userSignout } from '../../Paywall';
+// import { setDesignSystemKey } from '../../DesignSystem';
 
 type TSignout = {
   mode?: 'icon' | 'button' | 'listitem';
@@ -27,6 +28,7 @@ export default function SignOut({ mode = 'icon' }: TSignout) {
   const handleSignOut = () => {
     dispatch(userSignout());
     dispatch(setPaywallKey('dialogOpen', false));
+    // dispatch(setDesignSystemKey('dialogOpen', false));
   };
 
   if (mode === 'listitem') {

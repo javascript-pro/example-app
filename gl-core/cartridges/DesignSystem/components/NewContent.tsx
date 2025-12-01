@@ -17,33 +17,37 @@ export default function NewContent({ slug }: INewContent) {
   const router = useRouter();
   if (!content) return null;
 
+  const { paywall } = content;
+
   return (
-    <ButtonBase
-      sx={{
-        textAlign: 'left',
-        mt: 1,
-        width: '100%',
-      }}
-      onClick={() => {
-        dispatch(routeTo(slug as string, router));
-        dispatch(setDesignSystemKey('dialog', null));
-      }}
-    >
-      <Alert
-        sx={{ width: '100%' }}
-        severity="success"
-        variant="outlined"
-        icon={
-          <Badge color="primary" badgeContent={null} >
-            <Icon icon={content.icon || 'home'} />
-          </Badge>
-        }
+    <>
+      <ButtonBase
+        sx={{
+          textAlign: 'left',
+          mt: 1,
+          width: '100%',
+        }}
+        onClick={() => {
+          dispatch(routeTo(slug as string, router));
+          dispatch(setDesignSystemKey('dialog', null));
+        }}
       >
-        <Typography variant="body1">{content.title}</Typography>
-        <Typography variant="body2" noWrap>
-          {content.excerpt}
-        </Typography>
-      </Alert>
-    </ButtonBase>
+        <Alert
+          sx={{ width: '100%' }}
+          severity="success"
+          variant="outlined"
+          icon={
+            <Badge color="primary" badgeContent={paywall ? '!' : null}>
+              <Icon icon={content.icon || 'home'} />
+            </Badge>
+          }
+        >
+          <Typography variant="body1">{content.title}</Typography>
+          <Typography variant="body2" noWrap>
+            {content.excerpt}
+          </Typography>
+        </Alert>
+      </ButtonBase>
+    </>
   );
 }

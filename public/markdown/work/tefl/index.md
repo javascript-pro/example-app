@@ -9,3 +9,5 @@ tags: expertise, fields, work
 paywall: true
 newContent: true
 ---
+
+Here is content that only authed users can see

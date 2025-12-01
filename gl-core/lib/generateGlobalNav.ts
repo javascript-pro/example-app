@@ -16,6 +16,7 @@ type NavNode = {
   excerpt?: string;
   description?: string;
   newContent?: boolean;
+  paywall?: boolean;
   children?: NavNode[];
 };
 
@@ -98,6 +99,7 @@ export async function getMarkdownPagesRecursively(
       tags: parseTags(data.tags),
       excerpt: extractExcerpt(content),
       newContent: parseBoolean(data.newContent),
+      paywall: parseBoolean(data.paywall),
     };
   } catch {
     // no index.md

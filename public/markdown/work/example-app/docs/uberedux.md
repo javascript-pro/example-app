@@ -1,5 +1,5 @@
 ---
-order: 30
+order: 50
 slug: /work/example-app/docs/uberedux
 title: Uberedux
 description: Because all Apps need State Management

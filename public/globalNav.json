@@ -106,6 +106,22 @@
             "excerpt": "| Tel/WhatsApp  |  | \n\n Goldlabel Apps Ltd  \n 321323 High Road  \n Chadwell Heath  \n Essex RM6 6AX\n\n[PageGrid thumbnails=\"no\" pages=\"/work/company/gdpr, /work/company/privacycookies, /work/company/term"
           },
           {
+            "title": "CV",
+            "slug": "/work/cv",
+            "order": 10,
+            "icon": "doc",
+            "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
+            "type": "file",
+            "tags": [
+              "company",
+              "resume",
+              "cv",
+              "google",
+              "pdf"
+            ],
+            "excerpt": "[LinkOut title=\"Google Doc\" icon=\"google\" url=\"https://docs.google.com/document/d/1KgpbzwVlVF5PXVqJXEhFp52QolOWlVptecAo4JU7Zo/edit?usp=sharing\"]\n\n[LinkOut title=\"Download PDF\" icon=\"download\" url=\"/pd"
+          },
+          {
             "title": "NPM",
             "slug": "/work/npm",
             "order": 10,
@@ -154,7 +170,7 @@
                   {
                     "title": "Uberedux",
                     "slug": "/work/example-app/docs/uberedux",
-                    "order": 30,
+                    "order": 50,
                     "icon": "js",
                     "image": "/png/n64/test.png",
                     "type": "file",
@@ -166,11 +182,27 @@
                       "Redux"
                     ],
                     "excerpt": "Otherwise you'd be back in jQuery callback hell. Nobody wants that.\n\n[GitHub url=\"https://github.com/javascriptpro/core/tree/master/glcore/cartridges/Uberedux\" label=\"Uberedux\"]\n\nUberedux is a simple,"
+                  },
+                  {
+                    "title": "Paywall",
+                    "slug": "/work/example-app/docs/paywall",
+                    "order": 130,
+                    "icon": "paywall",
+                    "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "paywall"
+                    ],
+                    "excerpt": "Every visitor (authenticated or not) continuously creates or updates a ping document in Firestore\n\n[GitHub url=\"https://github.com/javascriptpro/core/tree/master/glcore/cartridges/Paywall\" label=\"Payw",
+                    "newContent": true
                   }
                 ],
                 "icon": "cartridge",
                 "image": "/png/lingua.png",
-                "excerpt": "Goldlabel is built on Cartridges\n\n[PageGrid pages=\"/work/exampleapp/docs/designsystem, /work/exampleapp/docs/lingua, /work/exampleapp/docs/uberedux, /work/exampleapp/docs/contentmanager\"]\n\nA cartridge"
+                "tags": [
+                  "docs"
+                ],
+                "excerpt": "Goldlabel is built on Cartridges\n\nA cartridge is a selfcontained piece of application logic: React components, state, styles, and utilities bundled together in a portable unit.\n\n[PageGrid pages=\"/work"
               },
               {
                 "title": "Tutorial",
@@ -1051,28 +1083,13 @@
               "fields",
               "work"
             ],
-            "excerpt": "",
-            "newContent": true
-          },
-          {
-            "title": "CV",
-            "slug": "/work/cv",
-            "order": 800,
-            "icon": "doc",
-            "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
-            "type": "file",
-            "tags": [
-              "company",
-              "resume",
-              "cv",
-              "google",
-              "pdf"
-            ],
-            "excerpt": "[LinkOut title=\"Google Doc\" icon=\"google\" url=\"https://docs.google.com/document/d/1KgpbzwVlVF5PXVqJXEhFp52QolOWlVptecAo4JU7Zo/edit?usp=sharing\"]\n\n[LinkOut title=\"Download PDF\" icon=\"download\" url=\"/pd"
+            "excerpt": "Here is content that only authed users can see",
+            "newContent": true,
+            "paywall": true
           }
         ],
         "icon": "work",
-        "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
+        "image": "https://live.staticflickr.com/65535/54950327749_6328b25765_b.jpg",
         "tags": [
           "Professional",
           "JavaScript",
@@ -1784,7 +1801,8 @@
                 ],
                 "icon": "bug",
                 "image": "https://live.staticflickr.com/65535/54938576927_22aaccb161_b.jpg",
-                "excerpt": "Oh we ARE? We are here to fuck spiders?\n\n Chapter 1\n\nAs far back as I can remember I knew that to play by the rules meant losing. I am Wei Zang and this is my story. Some of it is true\n\nJudging from t"
+                "excerpt": "Oh we ARE? We are here to fuck spiders?\n\n Chapter 1\n\nAs far back as I can remember I knew that to play by the rules meant losing. I am Wei Zang and this is my story. Some of it is true\n\nJudging from t",
+                "paywall": true
               }
             ],
             "icon": "writing",
@@ -1794,11 +1812,11 @@
         ],
         "icon": "balance",
         "image": "https://live.staticflickr.com/65535/54941778209_29ee005a38_b.jpg",
-        "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"yes\" pages=\"/balance/pictures, /balance/film, /balance/words\"]"
+        "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]"
       }
     ],
     "icon": "home",
-    "image": "https://live.staticflickr.com/65535/54676004619_ac1207c621_c.jpg",
+    "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
     "tags": [
       "JavaScript",
       "Next Gen",
@@ -1825,6 +1843,6 @@
       "Headless CMS",
       "secure"
     ],
-    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]"
+    "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]"
   }
 ]

@@ -40,15 +40,10 @@ export default function Tags() {
         <DialogContent>
           <Grid container spacing={2} sx={{ mb: 2 }}>
             <Grid size={{ xs: 12, sm: 6 }}>
-              <Typography variant='h6'>
-                Tags for this page
-              </Typography>
-              
+              <Typography variant="h6">Tags for this page</Typography>
             </Grid>
             <Grid size={{ xs: 12, sm: 6 }}>
-              <Typography>
-                Other pages with any of those tags
-              </Typography>
+              <Typography>Other pages with any of those tags</Typography>
             </Grid>
           </Grid>
         </DialogContent>

@@ -1,5 +1,5 @@
 ---
-order: 800
+order: 10
 title: CV
 description: Hyperlink Resume
 slug: /work/about/cv

@@ -109,7 +109,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
                 {/* Title + Icon */}
                 <Box sx={{ display: 'flex' }}>
                   <Box sx={{ mr: 2, mt: 1.5 }}>
-                    <Icon icon={icon as any} />
+                    <Icon icon={icon as any} color="primary" />
                   </Box>
 
                   <Typography
@@ -159,7 +159,6 @@ export default function Core({ frontmatter, body = null }: TCore) {
                   <Box sx={{ mr: 1 }}>
                     <SharePopup />
                   </Box>
-
                 </Box>
 
                 {/* WHAT'S NEW — COLLAPSE */}
@@ -183,40 +182,40 @@ export default function Core({ frontmatter, body = null }: TCore) {
                       spacing={2}
                       sx={{ alignItems: 'flex-start' }}
                     >
-                      {/* Left: Gate */}
-                      <Grid size={{ xs: 12, md: 6 }}>
-                        <SigninGate />
-                      </Grid>
-
                       {/* Right: Image */}
                       <Grid size={{ xs: 12, md: 6 }}>
-                        {!noImage && image && (
-                          <Box>
-                            {!imageError ? (
-                              <Image
-                                priority
-                                src={image}
-                                alt={title || 'Featured image'}
-                                width={1200}
-                                height={630}
-                                style={{
-                                  width: '100%',
-                                  height: 'auto',
-                                  maxHeight: isMobile ? 'none' : '420px',
-                                  objectFit: 'cover',
-                                  borderRadius: 8,
-                                }}
-                                onError={() => setImageError(true)}
-                              />
-                            ) : (
-                              <Skeleton
-                                variant="rectangular"
-                                width="100%"
-                                height={315}
-                              />
-                            )}
-                          </Box>
-                        )}
+                        <Box sx={{ mt: 2 }}>
+                          {!noImage && image && (
+                            <Box>
+                              {!imageError ? (
+                                <Image
+                                  priority
+                                  src={image}
+                                  alt={title || 'Featured image'}
+                                  width={1200}
+                                  height={630}
+                                  style={{
+                                    width: '100%',
+                                    height: 'auto',
+                                    maxHeight: isMobile ? 'none' : '420px',
+                                    objectFit: 'cover',
+                                    borderRadius: 8,
+                                  }}
+                                  onError={() => setImageError(true)}
+                                />
+                              ) : (
+                                <Skeleton
+                                  variant="rectangular"
+                                  width="100%"
+                                  height={315}
+                                />
+                              )}
+                            </Box>
+                          )}
+                        </Box>
+                      </Grid>
+                      <Grid size={{ xs: 12, md: 6 }}>
+                        <SigninGate />
                       </Grid>
                     </Grid>
                   ) : (
