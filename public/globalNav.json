@@ -191,7 +191,8 @@
                     "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
                     "type": "file",
                     "tags": [
-                      "paywall"
+                      "paywall",
+                      "docs"
                     ],
                     "excerpt": "Every visitor (authenticated or not) continuously creates or updates a ping document in Firestore\n\n[GitHub url=\"https://github.com/javascriptpro/core/tree/master/glcore/cartridges/Paywall\" label=\"Payw",
                     "newContent": true
@@ -245,7 +246,7 @@
                   "NextJS",
                   "GitHub"
                 ],
-                "excerpt": "Each page focuses on a single part of the system\n\n Clone the public repository\n\nThis section walks through a minimal Goldlabel Core project from start to finish. Each page focuses on a single part of "
+                "excerpt": "Each page focuses on a single part of the system\n\n[GitHub url=\"https://github.com/javascriptpro/exampleapp\" label=\"git clone https://github.com/javascriptpro/exampleapp.git\"]\n\n Clone the public reposi"
               }
             ],
             "icon": "examples",
@@ -1071,19 +1072,91 @@
           },
           {
             "title": "TEFL",
-            "description": "English as a Foreign Language",
+            "description": "English for working in software development",
             "slug": "/work/tefl",
             "order": 120,
             "type": "folder",
-            "children": [],
+            "children": [
+              {
+                "title": "Accreditation",
+                "slug": "/work/tefl/accreditation",
+                "order": 20,
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "type": "file",
+                "tags": [
+                  "expertise",
+                  "accreditation",
+                  "fields",
+                  "work",
+                  "tefl",
+                  "English as a Foreign Language"
+                ],
+                "excerpt": "Useful for teaching English to developers, where clear technical communication matters.\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s"
+              },
+              {
+                "title": "Lessons",
+                "description": "English for working in software development",
+                "slug": "/work/tefl/lessons",
+                "order": 40,
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "GitHub Commits",
+                    "slug": "/work/tefl/lessons/github-commit",
+                    "order": 40,
+                    "icon": "lingua",
+                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "expertise",
+                      "fields",
+                      "work",
+                      "tefl",
+                      "English as a Foreign Language"
+                    ],
+                    "excerpt": "A practical module built around the language developers use when contributing to a codebase. The lesson covers the structure of clear commit messages, the tone expected in professional teams, and how "
+                  },
+                  {
+                    "title": "Pull Requests",
+                    "slug": "/work/tefl/lessons/pull-requests",
+                    "order": 50,
+                    "icon": "lingua",
+                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "expertise",
+                      "fields",
+                      "work",
+                      "tefl",
+                      "English as a Foreign Language"
+                    ],
+                    "excerpt": "A followon lesson focusing on the language of collaboration. It shows how to write polite, direct, and technically accurate pull request descriptions. Learners practise giving feedback that is constru"
+                  }
+                ],
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "tags": [
+                  "expertise",
+                  "fields",
+                  "work",
+                  "tefl",
+                  "English as a Foreign Language"
+                ],
+                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
+                "paywall": true
+              }
+            ],
             "icon": "lingua",
             "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
             "tags": [
               "expertise",
               "fields",
-              "work"
+              "work",
+              "tefl",
+              "English as a Foreign Language"
             ],
-            "excerpt": "Here is content that only authed users can see",
+            "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/githubcommit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UKregulated tea",
             "newContent": true,
             "paywall": true
           }

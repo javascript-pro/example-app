@@ -49,6 +49,7 @@ function smartCapitalize(label: string): string {
     'HTTP',
     'HTTPS',
     'TEFL',
+    'APIS',
     'GDPR',
     'NPM',
     'CV',
@@ -62,6 +63,8 @@ function smartCapitalize(label: string): string {
     'ML',
     'API',
     'GPU',
+    'SSR',
+    'SSG',
   ];
   if (!label) return label;
 

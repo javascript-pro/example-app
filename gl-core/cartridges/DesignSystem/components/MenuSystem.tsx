@@ -29,6 +29,18 @@ export default function MenuSystem() {
       <List dense disablePadding>
         <ListItemButton
           onClick={() => {
+            dispatch(setPaywallKey('userDialog', false));
+            dispatch(reset());
+          }}
+        >
+          <ListItemIcon>
+            <Icon icon="reset" color="primary" />
+          </ListItemIcon>
+          <ListItemText primary="Restart" />
+        </ListItemButton>
+
+        <ListItemButton
+          onClick={() => {
             handleToggle();
           }}
         >
@@ -41,18 +53,6 @@ export default function MenuSystem() {
           <ListItemText
             primary={themeMode === 'dark' ? 'Light mode' : 'Dark mode'}
           />
-        </ListItemButton>
-
-        <ListItemButton
-          onClick={() => {
-            dispatch(setPaywallKey('userDialog', false));
-            dispatch(reset());
-          }}
-        >
-          <ListItemIcon>
-            <Icon icon="reset" color="primary" />
-          </ListItemIcon>
-          <ListItemText primary="Restart" />
         </ListItemButton>
 
         {user && <SignOut mode="listitem" />}

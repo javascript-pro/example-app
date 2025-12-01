@@ -10,7 +10,7 @@ tags: cookies, gdpr, privacy, terms, trust
 
 > GDPR sets the rules for how we collect, store, and use personal data
 
-## What does it mean?
+#### What does it mean?
 
 For us it means we must minimise data collection, document what we process, and give users clear control over anything that can identify them. For readers, it means stronger rights over their data — access, deletion, correction, and the ability to refuse tracking.
 
