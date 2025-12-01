@@ -8,9 +8,9 @@ import {
   ListItemIcon,
   ListItemText,
 } from '@mui/material';
-import { routeTo, useDispatch, Icon, reset } from '../../../../gl-core';
+import { useDispatch, Icon, reset } from '../../../../gl-core';
 import { useDesignSystem, setDesignSystemKey } from '../../DesignSystem';
-import { useUser, SignOut } from '../../Paywall';
+import { useUser, SignOut, setPaywallKey } from '../../Paywall';
 
 export default function MenuSystem() {
   const dispatch = useDispatch();
@@ -43,15 +43,9 @@ export default function MenuSystem() {
           />
         </ListItemButton>
 
-        {user && (
-          <>
-            <SignOut mode="listitem" />
-          </>
-        )}
-
         <ListItemButton
           onClick={() => {
-            dispatch(setDesignSystemKey('dialog', null));
+            dispatch(setPaywallKey('userDialog', false));
             dispatch(reset());
           }}
         >
@@ -60,21 +54,10 @@ export default function MenuSystem() {
           </ListItemIcon>
           <ListItemText primary="Restart" />
         </ListItemButton>
+
+        {user && <SignOut mode="listitem" />}
+
       </List>
     </>
   );
 }
-
-/*
-<ListItemButton
-    onClick={() => {
-    dispatch(setDesignSystemKey('dialog', null));
-    dispatch(routeTo('/bad-panda', router));
-  }}
->
-  <ListItemIcon>
-    <Icon icon="bug" color="primary" />
-  </ListItemIcon>
-  <ListItemText primary="Bad Panda" />
-</ListItemButton>
-*/

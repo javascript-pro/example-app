@@ -29,7 +29,7 @@ export default function DesignSystem({
     if (!feedbackTested) {
       const feedback: TFeedback = {
         severity: 'success',
-        title: `Booting v${version}`,
+        title: `v${version} booted OK`,
       };
       dispatch(setFeedback(feedback));
       dispatch(setDesignSystemKey('feedbackTested', true));

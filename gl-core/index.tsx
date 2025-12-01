@@ -59,7 +59,6 @@ import {
   resend,
   reset,
   log,
-  fetchGlobalNav,
 } from './actions';
 
 export { Core };
@@ -73,7 +72,6 @@ export {
   resend,
   reset,
   log,
-  fetchGlobalNav,
 };
 export {
   Icon,

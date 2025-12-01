@@ -9,6 +9,8 @@ import { useBySlug } from './hooks/useBySlug';
 import { setUbereduxKey, resetUberedux } from './store';
 import { TRootState, TUbereduxDispatch } from './store';
 
+import {fetchGlobalNav} from './actions/fetchGlobalNav';
+
 export {
   UbereduxProvider,
   Uberedux,
@@ -20,6 +22,7 @@ export {
   useBySlug,
   setUbereduxKey,
   resetUberedux,
+  fetchGlobalNav,
 };
 
 export type { TRootState, TUbereduxDispatch };

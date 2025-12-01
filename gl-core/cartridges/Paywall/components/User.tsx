@@ -54,15 +54,15 @@ export default function User() {
       />
     );
   }
-
+  
   return (
     <Box sx={{ display: 'flex', alignItems: 'center', p: 2 }}>
-      <IconButton onClick={toggleDialogOpen} sx={{ ml: -1 }}>
+      {/* <IconButton onClick={toggleDialogOpen} sx={{ ml: -1 }}> */}
         <Avatar
           src={user.photoURL || provider?.photoURL || undefined}
           sx={{ width: 24, height: 24 }}
         />
-      </IconButton>
+      {/* </IconButton> */}
     </Box>
   );
 }
