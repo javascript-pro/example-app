@@ -7,6 +7,7 @@ import { useVersionCheck } from './hooks/useVersionCheck';
 import { useNewContent } from './hooks/useNewContent';
 import { usePaywallContent } from './hooks/usePaywallContent';
 import { useBySlug } from './hooks/useBySlug';
+import { useSearch } from './hooks/useSearch';
 import { setUbereduxKey, resetUberedux } from './store';
 import { TRootState, TUbereduxDispatch } from './store';
 import { fetchGlobalNav } from './actions/fetchGlobalNav';
@@ -24,6 +25,7 @@ export {
   setUbereduxKey,
   resetUberedux,
   fetchGlobalNav,
+  useSearch,
 };
 
 export type { TRootState, TUbereduxDispatch };

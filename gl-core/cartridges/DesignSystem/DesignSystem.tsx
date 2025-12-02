@@ -3,7 +3,6 @@
 import * as React from 'react';
 import { TTheme, IDesignSystem, TFeedback } from './types';
 import { ThemeProvider, CssBaseline } from '@mui/material';
-import { useConfig } from '../../../gl-core';
 import {
   useDesignSystem,
   useMUITheme,
@@ -15,7 +14,6 @@ import {
   LoadingOverlay,
   Footer,
 } from '../DesignSystem';
-
 import { useDispatch, useSlice } from '../Uberedux';
 
 export default function DesignSystem({
@@ -28,11 +26,11 @@ export default function DesignSystem({
   const { version } = useSlice();
   React.useEffect(() => {
     if (!feedbackTested) {
-      const feedback: TFeedback = {
-        severity: 'success',
-        title: `v${version} booted OK`,
-      };
-      dispatch(setFeedback(feedback));
+      // const feedback: TFeedback = {
+      //   severity: 'success',
+      //   title: `v${version} booted OK`,
+      // };
+      // dispatch(setFeedback(feedback));
       dispatch(setDesignSystemKey('feedbackTested', true));
     }
   }, [dispatch, feedbackTested]);

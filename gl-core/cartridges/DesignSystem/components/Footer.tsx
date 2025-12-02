@@ -10,15 +10,13 @@ import {
   Typography,
 } from '@mui/material';
 import { useIsMobile } from '../../../../gl-core';
-import {
-  Search,
-} from '../../DesignSystem';
+import { Search } from '../../DesignSystem';
 
 export type TFooter = {};
 
 export default function Footer({}: TFooter) {
   const isMobile = useIsMobile();
-  if (isMobile) return null;
+  // if (isMobile) return null;
   return (
     <>
       <AppBar
@@ -36,27 +34,37 @@ export default function Footer({}: TFooter) {
               }}
             >
               <Grid container spacing={1}>
+                
                 <Grid
                   size={{
                     xs: 12,
                     sm: 6,
                   }}
                 >
-                  <Typography variant="button">Goldlabel Apps Ltd</Typography>
-                  <Typography variant="body2"></Typography>
-                  <Typography variant="body2">
-                    321-323 High Road, Essex RM6 6AX
-                  </Typography>
+                  <Box sx={{
+                    mt: isMobile ? 2 : 0,
+                    textAlign: isMobile ? 'center' : 'left'}}>
+                    <Search />
+                  </Box>
                 </Grid>
 
                 <Grid
                   size={{
                     xs: 12,
                     sm: 6,
-                  }}
-                >
-                  <Search />
+                  }}>
+                  <Box sx={{
+                    mt: 1,
+                    textAlign: isMobile ? 'center' : 'right'}}>
+                    <Typography 
+                      color='text.secondary'
+                      variant="caption">
+                      
+                      Goldlabel Apps Ltd</Typography>
+                    
+                  </Box>
                 </Grid>
+
               </Grid>
             </Box>
           </Container>
