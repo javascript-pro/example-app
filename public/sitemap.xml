@@ -191,6 +191,21 @@
     <loc>https://goldlabel.pro/life/skiing</loc>
   </url>
   <url>
+    <loc>https://goldlabel.pro/life/tefl/accreditation</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/life/tefl</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/life/tefl/lessons/github-commit</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/life/tefl/lessons</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/life/tefl/lessons/pull-requests</loc>
+  </url>
+  <url>
     <loc>https://goldlabel.pro/work/about/gdpr</loc>
   </url>
   <url>
@@ -263,9 +278,6 @@
     <loc>https://goldlabel.pro/work</loc>
   </url>
   <url>
-    <loc>https://goldlabel.pro/work/npm</loc>
-  </url>
-  <url>
     <loc>https://goldlabel.pro/work/skills/ai/aki</loc>
   </url>
   <url>
@@ -294,9 +306,6 @@
   </url>
   <url>
     <loc>https://goldlabel.pro/work/skills/design/mui</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/work/skills/ecmascript</loc>
   </url>
   <url>
     <loc>https://goldlabel.pro/work/skills/fullstack/blockchain</loc>
@@ -332,6 +341,9 @@
     <loc>https://goldlabel.pro/work/skills</loc>
   </url>
   <url>
+    <loc>https://goldlabel.pro/work/skills/javascript/ecmascript</loc>
+  </url>
+  <url>
     <loc>https://goldlabel.pro/work/skills/javascript</loc>
   </url>
   <url>
@@ -345,6 +357,9 @@
   </url>
   <url>
     <loc>https://goldlabel.pro/work/skills/javascript/node</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/work/skills/javascript/npm</loc>
   </url>
   <url>
     <loc>https://goldlabel.pro/work/skills/javascript/react/experience</loc>
@@ -390,20 +405,5 @@
   </url>
   <url>
     <loc>https://goldlabel.pro/work/skills/javascript/vercel</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/work/tefl/accreditation</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/work/tefl</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/work/tefl/lessons/github-commit</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/work/tefl/lessons</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/work/tefl/lessons/pull-requests</loc>
   </url>
 </urlset>

@@ -2,7 +2,7 @@
 order: 40
 title: GitHub Commits
 description: Contributing to a codebase in English
-slug: /work/tefl/lessons/github-commit
+slug: /life/tefl/lessons/github-commit
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: expertise, fields, work, tefl, English as a Foreign Language,

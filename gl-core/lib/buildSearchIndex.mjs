@@ -29,6 +29,7 @@ function readAllMarkdown(dir) {
         slug,
         title: parsed.data.title || slug,
         description: parsed.data.description || '',
+        image: parsed.data.image || '',
         tags: parsed.data.tags || [],
         content: parsed.content,
       });

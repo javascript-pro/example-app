@@ -6,6 +6,7 @@ slug: /work/about/work-with-us
 icon: company
 image: https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg
 tags: company, intellectual-property
+noImage: true
 ---
 
 > We take on a limited number of new projects each month

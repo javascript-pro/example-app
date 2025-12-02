@@ -10,7 +10,7 @@ noImage: true
 
 > The Lingua cartridge brings localisation to Goldlabel. It enables your site to serve content in multiple languages, making it accessible to a wider audience without complicating your codebase.
 
-[GitHub url="https://github.com/javascript-pro/core/tree/master/gl-core/cartridges/Lingua" label="Lingua"]
+[GitHub url="https://github.com/javascript-pro/core/tree/master/gl-core/cartridges/Lingua" label="Lingua Cartridge"]
 
 #### What is it?
 

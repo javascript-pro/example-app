@@ -2,7 +2,7 @@
 'use client';
 import * as React from 'react';
 import { useRouter } from 'next/navigation';
-import { Badge, Typography, Alert, ButtonBase } from '@mui/material';
+import { Box, Badge, Typography, Alert, ButtonBase } from '@mui/material';
 import { Icon, routeTo, useDispatch } from '../../../../gl-core';
 import { useBySlug } from '../../Uberedux';
 import { setDesignSystemKey } from '../../DesignSystem';
@@ -37,9 +37,11 @@ export default function NewContent({ slug }: INewContent) {
           severity="success"
           variant="outlined"
           icon={
-            <Badge color="primary" badgeContent={paywall ? '!' : null}>
-              <Icon icon={content.icon || 'home'} />
-            </Badge>
+            <Box sx={{ mt: 0.5, mr: 0.5 }}>
+              <Badge color="primary" badgeContent={paywall ? '!' : null}>
+                <Icon icon={content.icon || 'home'} />
+              </Badge>
+            </Box>
           }
         >
           <Typography variant="body1">{content.title}</Typography>

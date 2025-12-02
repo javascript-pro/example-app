@@ -2,7 +2,7 @@
 order: 50
 title: Pull Requests
 description: Write polite, direct, and technically accurate pull request descriptions
-slug: /work/tefl/lessons/pull-requests
+slug: /life/tefl/lessons/pull-requests
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: expertise, fields, work, tefl, English as a Foreign Language,

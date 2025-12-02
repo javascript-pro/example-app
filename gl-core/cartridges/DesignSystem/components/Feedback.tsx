@@ -32,12 +32,12 @@ export default function Feedback({}: TAuthForm) {
       open
       anchorOrigin={{
         vertical: 'top',
-        horizontal: 'center',
+        horizontal: 'right',
       }}
       onClose={handleClose}
     >
       <Alert
-        variant='filled'
+        variant="filled"
         severity={severity}
         sx={{ minWidth: 250 }}
         action={

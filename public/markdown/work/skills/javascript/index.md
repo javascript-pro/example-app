@@ -10,7 +10,7 @@ tags: Fullstack JavaScript, Vanilla JavaScript, TypeScript, React, Angular, Vue,
 
 > "A JavaScript team that’s battle-tested, precise, and fast."
 
-[PageGrid thumbnails="no" pages="/work/skills/ecmascript, /work/skills/javascript/typescript, /work/skills/javascript/react, /work/skills/javascript/react/react-native, /work/skills/javascript/node, /work/skills/javascript/nextjs, /work/skills/javascript/vercel, /work/skills/javascript/js-testing"]
+[PageGrid pages="/work/skills/javascript/ecmascript, /work/skills/javascript/typescript, /work/skills/javascript/react, /work/skills/javascript/react/react-native, /work/skills/javascript/npm, /work/skills/javascript/node, /work/skills/javascript/nextjs, /work/skills/javascript/vercel, /work/skills/javascript/js-testing"]
 
 Before the frameworks, before npm, before it ate the world—we were already deep in the language that powers the modern web.
 

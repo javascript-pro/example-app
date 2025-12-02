@@ -1,7 +1,7 @@
 ---
 order: 60
-title: Example App
-description: This app is Open Source
+title: Example
+description: Open Source
 slug: /work/example-app
 icon: examples
 image: /png/n64/flickr.png

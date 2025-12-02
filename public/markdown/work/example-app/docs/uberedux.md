@@ -11,7 +11,7 @@ noImage: true
 
 > Otherwise you'd be back in jQuery callback hell. Nobody wants that.
 
-[GitHub url="https://github.com/javascript-pro/core/tree/master/gl-core/cartridges/Uberedux" label="Uberedux"]
+[GitHub url="https://github.com/javascript-pro/core/tree/master/gl-core/cartridges/Uberedux" label="Uberedux Cartridge"]
 
 Uberedux is a simple, zero-config wrapper around Redux. It plugs cleanly into how the app already works and gives you the global state access you need without boilerplate or fuss. There’s nothing clever here — and that’s the point. Uberedux is fast, familiar, and already done for you.
 

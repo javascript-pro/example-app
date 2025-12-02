@@ -2,7 +2,7 @@
 order: 2
 title: ECMAScript
 description: Language specification behind JavaScript, JScript, ActionScript, and other languages
-slug: /work/skills/ecmascript
+slug: /work/skills/javascript/ecmascript
 icon: js
 image: https://live.staticflickr.com/65535/54953844493_dce461ec4c_b.jpg
 tags: expertise, ECMAScript, JScript, ActionScript

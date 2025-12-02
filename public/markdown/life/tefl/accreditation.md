@@ -2,7 +2,7 @@
 order: 20
 title: Accreditation
 description: Level 5 TEFL Diploma
-slug: /work/tefl/accreditation
+slug: /life/tefl/accreditation
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: expertise, accreditation, fields, work, tefl, English as a Foreign Language,

@@ -11,8 +11,8 @@ noImage: true
 
 > Goldlabel builds and ships modern web apps for clients who need real results fast
 
-[PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example-app"]
-
 - _Small_ team. _Big_ output
 - Real deployments from Day One
 - Readable, extensible, Open Source
+
+[PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example-app"]

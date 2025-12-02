@@ -1,3 +1,4 @@
+// /Users/goldlabel/GitHub/example-app/gl-core/lib/getPopupMenu.tsx
 import fs from 'fs';
 import path from 'path';
 

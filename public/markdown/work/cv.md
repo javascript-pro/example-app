@@ -6,6 +6,7 @@ slug: /work/about/cv
 icon: doc
 image: https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg
 tags: company, resume, cv, google, pdf
+noImage: true
 ---
 
 [LinkOut title="Google Doc" icon="google" url="https://docs.google.com/document/d/1KgpbzwVlVF5PXVqJ-XEhFp52QolOWlVptecAo4JU7Zo/edit?usp=sharing"]

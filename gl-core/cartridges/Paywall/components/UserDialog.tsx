@@ -53,7 +53,9 @@ export default function UserDialog() {
             {user && isUberUser && (
               <Grid size={{ xs: 12 }}>
                 <Accordion>
-                  <AccordionSummary expandIcon={<Icon icon="down" color="secondary" />}>
+                  <AccordionSummary
+                    expandIcon={<Icon icon="down" color="secondary" />}
+                  >
                     Uber User Only
                   </AccordionSummary>
                   <AccordionDetails>
@@ -78,7 +80,6 @@ export default function UserDialog() {
             <Icon icon="close" />
           </IconButton>
         </DialogActions>
-        
       </Dialog>
     </>
   );

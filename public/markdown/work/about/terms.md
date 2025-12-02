@@ -6,6 +6,7 @@ slug: /work/about/terms
 icon: company
 image: https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg
 tags: cookies, gdpr, privacy, terms, trust, intellectual-property
+noImage: true
 ---
 
 > Liability boundaries, intellectual-property ownership, and disputes

@@ -12,7 +12,7 @@ noImage: true
 
 > Every visitor (authenticated or not) continuously creates or updates a ping document in Firestore
 
-[GitHub url="https://github.com/javascript-pro/core/tree/master/gl-core/cartridges/Paywall" label="Paywall"]
+[GitHub url="https://github.com/javascript-pro/core/tree/master/gl-core/cartridges/Paywall" label="Paywall Cartridge"]
 
 - Stripe Payments
 

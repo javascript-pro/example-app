@@ -125,7 +125,7 @@ function ConfirmDialog({
         <Button onClick={onCancel}>Cancel</Button>
         <Button
           color="secondary"
-          variant='contained'
+          variant="contained"
           onClick={onConfirm}
           endIcon={<Icon icon="signout" />}
         >

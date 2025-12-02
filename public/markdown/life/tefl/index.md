@@ -2,7 +2,7 @@
 order: 120
 title: TEFL
 description: English for working in software development
-slug: /work/tefl
+slug: /life/tefl
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: expertise, fields, work, tefl, English as a Foreign Language,

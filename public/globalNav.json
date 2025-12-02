@@ -21,7 +21,7 @@
             "type": "folder",
             "children": [
               {
-                "title": "How we work",
+                "title": "Where we work",
                 "slug": "/work/about/where-we-work",
                 "order": 250,
                 "icon": "company",
@@ -122,22 +122,8 @@
             "excerpt": "[LinkOut title=\"Google Doc\" icon=\"google\" url=\"https://docs.google.com/document/d/1KgpbzwVlVF5PXVqJXEhFp52QolOWlVptecAo4JU7Zo/edit?usp=sharing\"]\n\n[LinkOut title=\"Download PDF\" icon=\"download\" url=\"/pd"
           },
           {
-            "title": "NPM",
-            "slug": "/work/npm",
-            "order": 10,
-            "icon": "js",
-            "image": "https://live.staticflickr.com/65535/54953590078_b40cbc83fb_b.jpg",
-            "type": "file",
-            "tags": [
-              "NPM",
-              "JavaScript",
-              "packages"
-            ],
-            "excerpt": "NPM is the central registry for JavaScript packages, providing developers with a vast ecosystem of reusable modules, versio\n\n[LinkOut title=\"GitHub goldlabelapps/npmcore\" icon=\"github\" url=\"https://gi"
-          },
-          {
-            "title": "Example App",
-            "description": "This app is Open Source",
+            "title": "Example",
+            "description": "Open Source",
             "slug": "/work/example-app",
             "order": 60,
             "type": "folder",
@@ -391,21 +377,6 @@
             "type": "folder",
             "children": [
               {
-                "title": "ECMAScript",
-                "slug": "/work/skills/ecmascript",
-                "order": 2,
-                "icon": "js",
-                "image": "https://live.staticflickr.com/65535/54953844493_dce461ec4c_b.jpg",
-                "type": "file",
-                "tags": [
-                  "expertise",
-                  "ECMAScript",
-                  "JScript",
-                  "ActionScript"
-                ],
-                "excerpt": "Initially dominant on the client side for the Web, ECMAScript now powers Node.js\n\nECMAScript is the formal language specification behind JavaScript, JScript, ActionScript, and similar scripting langua"
-              },
-              {
                 "title": "JavaScript",
                 "description": "JavaScript Whatever the Weather",
                 "slug": "/work/skills/javascript",
@@ -489,6 +460,21 @@
                     "excerpt": "[ChildPages title=\"React\"]\n\nReact is a JavaScript library for building user interfaces, originally developed by Jordan Walke at Facebook and opensourced in 2013. It introduced a fundamentally new way "
                   },
                   {
+                    "title": "ECMAScript",
+                    "slug": "/work/skills/javascript/ecmascript",
+                    "order": 2,
+                    "icon": "js",
+                    "image": "https://live.staticflickr.com/65535/54953844493_dce461ec4c_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "expertise",
+                      "ECMAScript",
+                      "JScript",
+                      "ActionScript"
+                    ],
+                    "excerpt": "Initially dominant on the client side for the Web, ECMAScript now powers Node.js\n\nECMAScript is the formal language specification behind JavaScript, JScript, ActionScript, and similar scripting langua"
+                  },
+                  {
                     "title": "Vanilla JS (ES6+)",
                     "slug": "/work/skills/javascript/vanilla-js",
                     "order": 3,
@@ -519,6 +505,20 @@
                       "React"
                     ],
                     "excerpt": "Other services to deploy Next apps are available\n\nVercel created Next.js and runs the platform it was designed for. Deploys are instant, previews are automatic, and the hosting is globally fast withou"
+                  },
+                  {
+                    "title": "NPM",
+                    "slug": "/work/skills/javascript/npm",
+                    "order": 10,
+                    "icon": "js",
+                    "image": "https://live.staticflickr.com/65535/54953590078_b40cbc83fb_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "NPM",
+                      "JavaScript",
+                      "packages"
+                    ],
+                    "excerpt": "NPM is the central registry for JavaScript packages, providing developers with a vast ecosystem of reusable modules, versio\n\n[LinkOut title=\"GitHub goldlabelapps/npmcore\" icon=\"github\" url=\"https://gi"
                   },
                   {
                     "title": "Next.js",
@@ -742,7 +742,7 @@
                   "Headless CMS",
                   "JSON"
                 ],
-                "excerpt": "\"A JavaScript team that’s battletested, precise, and fast.\"\n\n[PageGrid thumbnails=\"no\" pages=\"/work/skills/ecmascript, /work/skills/javascript/typescript, /work/skills/javascript/react, /work/skills/j"
+                "excerpt": "\"A JavaScript team that’s battletested, precise, and fast.\"\n\n[PageGrid pages=\"/work/skills/javascript/ecmascript, /work/skills/javascript/typescript, /work/skills/javascript/react, /work/skills/javasc"
               },
               {
                 "title": "Design",
@@ -1068,97 +1068,7 @@
               "fields",
               "work"
             ],
-            "excerpt": "Working across the full JavaScript stack to help understand every perspective from interface to infrastructure\n\n[PageGrid pages=\"/work/skills/ecmascript, /work/skills/javascript/react, /work/skills/ja"
-          },
-          {
-            "title": "TEFL",
-            "description": "English for working in software development",
-            "slug": "/work/tefl",
-            "order": 120,
-            "type": "folder",
-            "children": [
-              {
-                "title": "Accreditation",
-                "slug": "/work/tefl/accreditation",
-                "order": 20,
-                "icon": "lingua",
-                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                "type": "file",
-                "tags": [
-                  "expertise",
-                  "accreditation",
-                  "fields",
-                  "work",
-                  "tefl",
-                  "English as a Foreign Language"
-                ],
-                "excerpt": "Useful for teaching English to developers, where clear technical communication matters.\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s"
-              },
-              {
-                "title": "Lessons",
-                "description": "English for working in software development",
-                "slug": "/work/tefl/lessons",
-                "order": 40,
-                "type": "folder",
-                "children": [
-                  {
-                    "title": "GitHub Commits",
-                    "slug": "/work/tefl/lessons/github-commit",
-                    "order": 40,
-                    "icon": "lingua",
-                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                    "type": "file",
-                    "tags": [
-                      "expertise",
-                      "fields",
-                      "work",
-                      "tefl",
-                      "English as a Foreign Language"
-                    ],
-                    "excerpt": "A practical module built around the language developers use when contributing to a codebase. The lesson covers the structure of clear commit messages, the tone expected in professional teams, and how "
-                  },
-                  {
-                    "title": "Pull Requests",
-                    "slug": "/work/tefl/lessons/pull-requests",
-                    "order": 50,
-                    "icon": "lingua",
-                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                    "type": "file",
-                    "tags": [
-                      "expertise",
-                      "fields",
-                      "work",
-                      "tefl",
-                      "English as a Foreign Language"
-                    ],
-                    "excerpt": "A followon lesson focusing on the language of collaboration. It shows how to write polite, direct, and technically accurate pull request descriptions. Learners practise giving feedback that is constru"
-                  }
-                ],
-                "icon": "lingua",
-                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                "tags": [
-                  "expertise",
-                  "fields",
-                  "work",
-                  "tefl",
-                  "English as a Foreign Language"
-                ],
-                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
-                "paywall": true
-              }
-            ],
-            "icon": "lingua",
-            "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-            "tags": [
-              "expertise",
-              "fields",
-              "work",
-              "tefl",
-              "English as a Foreign Language"
-            ],
-            "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/githubcommit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UKregulated tea",
-            "newContent": true,
-            "paywall": true
+            "excerpt": "Working across the full JavaScript stack to help understand every perspective from interface to infrastructure\n\n[PageGrid pages=\"/work/skills/npm, /work/skills/ecmascript, /work/skills/javascript/reac"
           }
         ],
         "icon": "work",
@@ -1177,7 +1087,7 @@
           "NextJS",
           "Headless CMS"
         ],
-        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlinkresume, /work/about, /work/skills, /work/experience, /work/exam"
+        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" "
       },
       {
         "title": "Life",
@@ -1568,6 +1478,96 @@
             "excerpt": "You want a recipe? The interweb's full of them. This is how I cook\n\n[PageGrid pages=\"/life/food/bladdygiveitsome, /life/food/nasigoreng, /life/food/airfriedpeppers, /life/food/bananabread, /life/food/"
           },
           {
+            "title": "TEFL",
+            "description": "English for working in software development",
+            "slug": "/life/tefl",
+            "order": 120,
+            "type": "folder",
+            "children": [
+              {
+                "title": "Accreditation",
+                "slug": "/life/tefl/accreditation",
+                "order": 20,
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "type": "file",
+                "tags": [
+                  "expertise",
+                  "accreditation",
+                  "fields",
+                  "work",
+                  "tefl",
+                  "English as a Foreign Language"
+                ],
+                "excerpt": "Useful for teaching English to developers, where clear technical communication matters.\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s"
+              },
+              {
+                "title": "Lessons",
+                "description": "English for working in software development",
+                "slug": "/life/tefl/lessons",
+                "order": 40,
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "GitHub Commits",
+                    "slug": "/life/tefl/lessons/github-commit",
+                    "order": 40,
+                    "icon": "lingua",
+                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "expertise",
+                      "fields",
+                      "work",
+                      "tefl",
+                      "English as a Foreign Language"
+                    ],
+                    "excerpt": "A practical module built around the language developers use when contributing to a codebase. The lesson covers the structure of clear commit messages, the tone expected in professional teams, and how "
+                  },
+                  {
+                    "title": "Pull Requests",
+                    "slug": "/life/tefl/lessons/pull-requests",
+                    "order": 50,
+                    "icon": "lingua",
+                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "expertise",
+                      "fields",
+                      "work",
+                      "tefl",
+                      "English as a Foreign Language"
+                    ],
+                    "excerpt": "A followon lesson focusing on the language of collaboration. It shows how to write polite, direct, and technically accurate pull request descriptions. Learners practise giving feedback that is constru"
+                  }
+                ],
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "tags": [
+                  "expertise",
+                  "fields",
+                  "work",
+                  "tefl",
+                  "English as a Foreign Language"
+                ],
+                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
+                "paywall": true
+              }
+            ],
+            "icon": "lingua",
+            "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+            "tags": [
+              "expertise",
+              "fields",
+              "work",
+              "tefl",
+              "English as a Foreign Language"
+            ],
+            "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/githubcommit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UKregulated tea",
+            "newContent": true,
+            "paywall": true
+          },
+          {
             "title": "Aquaponics",
             "description": "Fish are food. Not friends.",
             "slug": "/life/aquaponics",
@@ -1622,7 +1622,7 @@
         ],
         "icon": "life",
         "image": "https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg",
-        "excerpt": "[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a"
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/tefl, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n ⚠️ Cultural reference: Generation X, Tales for an Accelerated "
       },
       {
         "title": "Balance",

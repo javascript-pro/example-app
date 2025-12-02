@@ -6,6 +6,7 @@ slug: /work/about/gdpr
 icon: company
 image: https://live.staticflickr.com/65535/54941520864_5f39fde35d_b.jpg
 tags: cookies, gdpr, privacy, terms, trust
+noImage: true
 ---
 
 > GDPR sets the rules for how we collect, store, and use personal data

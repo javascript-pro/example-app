@@ -5,6 +5,7 @@ description: Goldlabel Apps Ltd
 slug: /work/about
 icon: company
 image: https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg
+noImage: true
 tags: intellectual-property
 ---
 

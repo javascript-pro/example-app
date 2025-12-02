@@ -10,7 +10,7 @@ tags: expertise, fields, work
 
 > Working across the full JavaScript stack to help understand every perspective from interface to infrastructure
 
-[PageGrid pages="/work/skills/ecmascript, /work/skills/javascript/react, /work/skills/javascript/react/react-native, /work/skills/javascript, /work/skills/fullstack, /work/skills/ai, /work/skills/design"]
+[PageGrid pages="/work/skills/npm, /work/skills/ecmascript, /work/skills/javascript/react, /work/skills/javascript/react/react-native, /work/skills/javascript, /work/skills/fullstack, /work/skills/ai, /work/skills/design"]
 
 We focus on robust, modern JavaScript tooling and scalable cloud-native delivery. Whether building responsive UIs, designing serverless APIs, or optimising DevOps pipelines, we bring production experience and architectural clarity to every layer of the process.
 
