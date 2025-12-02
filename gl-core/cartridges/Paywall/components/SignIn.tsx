@@ -1,7 +1,7 @@
 // cartridges/Paywall/components/SignIn.tsx
 'use client';
 import * as React from 'react';
-import { Box, Typography, CardContent, Button, Grid } from '@mui/material';
+import { CardContent, Button, Grid } from '@mui/material';
 import {
   onAuthStateChanged,
   User,
@@ -96,9 +96,9 @@ export default function SignIn() {
           >
             Twitter
           </Button>
-          <Typography variant="caption">
+          {/* <Typography variant="caption">
             If you'd like access but can't use these options, let us know
-          </Typography>
+          </Typography> */}
         </CardContent>
       </Grid>
     </Grid>

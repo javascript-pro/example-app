@@ -112,7 +112,7 @@ function ConfirmDialog({
   onConfirm: () => void;
 }) {
   return (
-    <Dialog open={open} onClose={onCancel}>
+    <Dialog open={open} onClose={onCancel} fullWidth maxWidth="xs">
       <DialogTitle>Sign out?</DialogTitle>
 
       <DialogContent>
@@ -124,9 +124,10 @@ function ConfirmDialog({
       <DialogActions>
         <Button onClick={onCancel}>Cancel</Button>
         <Button
+          color="secondary"
+          variant='contained'
           onClick={onConfirm}
-          color="error"
-          startIcon={<Icon icon="signout" />}
+          endIcon={<Icon icon="signout" />}
         >
           Sign out
         </Button>

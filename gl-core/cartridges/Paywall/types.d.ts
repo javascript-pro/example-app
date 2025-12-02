@@ -12,4 +12,4 @@ export type TPaywallState = {
 export type TTing = {
   fingerprint: string;
   // [key: string]: any;
-}
+};

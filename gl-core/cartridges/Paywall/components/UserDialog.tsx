@@ -18,6 +18,7 @@ import {
   useUser,
   setPaywallKey,
   usePaywall,
+  useTing,
   SignIn,
   User,
   useIsUberUser,
@@ -29,6 +30,7 @@ export default function UserDialog() {
   const ds = useDesignSystem();
   const { fullScreen } = ds;
   const user = useUser();
+  const ting = useTing();
   const paywall = usePaywall();
   const { userDialog } = paywall;
   const isUberUser = useIsUberUser();
@@ -48,9 +50,21 @@ export default function UserDialog() {
       >
         <DialogContent>
           <Grid container spacing={1} sx={{ mb: 0 }}>
-            <Grid size={{ xs: 12, md: 6 }}>
-              {user ? <User /> : <SignIn />} 
-            </Grid>
+            {user && isUberUser && (
+              <Grid size={{ xs: 12 }}>
+                <Accordion>
+                  <AccordionSummary expandIcon={<Icon icon="down" color="secondary" />}>
+                    Uber User Only
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <pre style={{ fontSize: '10px', margin: 0 }}>
+                      ting: {JSON.stringify(ting, null, 2)}
+                    </pre>
+                  </AccordionDetails>
+                </Accordion>
+              </Grid>
+            )}
+            <Grid size={{ xs: 12, md: 6 }}>{user ? <User /> : <SignIn />}</Grid>
             <Grid size={{ xs: 12, md: 6 }}>
               <Box sx={{ mt: 3 }}>
                 <MenuSystem />
@@ -64,18 +78,7 @@ export default function UserDialog() {
             <Icon icon="close" />
           </IconButton>
         </DialogActions>
-        {user && isUberUser && (
-          <Accordion sx={{ mx: 2, background: 0, boxShadow: 0 }}>
-            <AccordionSummary expandIcon={<Icon icon="up" color="primary" />}>
-              UberUser
-            </AccordionSummary>
-            <AccordionDetails>
-              <pre style={{ fontSize: '10px', margin: 0 }}>
-                user: {JSON.stringify(user, null, 2)}
-              </pre>
-            </AccordionDetails>
-          </Accordion>
-        )}
+        
       </Dialog>
     </>
   );

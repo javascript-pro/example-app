@@ -34,9 +34,9 @@ export default function MenuSystem() {
           }}
         >
           <ListItemIcon>
-            <Icon icon="reset" color="primary" />
+            <Icon icon="home" color="primary" />
           </ListItemIcon>
-          <ListItemText primary="Restart" />
+          <ListItemText primary="Reset" />
         </ListItemButton>
 
         <ListItemButton

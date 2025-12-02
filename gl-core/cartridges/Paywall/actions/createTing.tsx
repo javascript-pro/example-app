@@ -178,7 +178,7 @@ export const createTing =
       // 5. Dispatch into bouncer slice
       dispatch(setPaywallKey('ting', pingObj));
       dispatch(setPaywallKey('tingReady', true));
-    //   dispatch(ping());
+      //   dispatch(ping());
     } catch (e: unknown) {
       const msg = e instanceof Error ? e.message : String(e);
       dispatch(setUbereduxKey({ key: 'error', value: msg }));

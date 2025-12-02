@@ -31,12 +31,13 @@ export default function Feedback({}: TAuthForm) {
     <Snackbar
       open
       anchorOrigin={{
-        vertical: 'bottom',
-        horizontal: 'left',
+        vertical: 'top',
+        horizontal: 'center',
       }}
       onClose={handleClose}
     >
       <Alert
+        variant='filled'
         severity={severity}
         sx={{ minWidth: 250 }}
         action={
