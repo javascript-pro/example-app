@@ -5,7 +5,7 @@ description: Write polite, direct, and technically accurate pull request descrip
 slug: /life/tefl/lessons/pull-requests
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
-tags: expertise, fields, work, tefl, English as a Foreign Language,
+tags: tefl, coding
 paywall: true
 ---
 
