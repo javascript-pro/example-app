@@ -12,4 +12,3 @@ paywall: true
 > These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments
 
 [PageGrid pages="/work/tefl/lessons/github-commit, /work/tefl/lessons/pull-requests"]
-

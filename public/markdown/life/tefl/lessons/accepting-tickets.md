@@ -19,10 +19,10 @@ Accepting a ticket signals ownership. It tells the team the work has a clear dri
 
 ### 2. What a Good Acceptance Comment Does
 
-* Confirms you’re taking responsibility
-* Shows understanding of the problem
-* Sets expectations for approach and scope
-* Reassures the team you’ll deliver safely
+- Confirms you’re taking responsibility
+- Shows understanding of the problem
+- Sets expectations for approach and scope
+- Reassures the team you’ll deliver safely
 
 ### 3. Example Acceptance Comment
 
@@ -30,10 +30,10 @@ Accepting a ticket signals ownership. It tells the team the work has a clear dri
 
 ### 4. Why This Works
 
-* Positive tone shows engagement
-* Clear understanding of the current state
-* Realistic goals set the direction
-* Incremental delivery reduces risk
+- Positive tone shows engagement
+- Clear understanding of the current state
+- Realistic goals set the direction
+- Incremental delivery reduces risk
 
 ### 5. Steps After Accepting the Ticket
 
@@ -46,13 +46,13 @@ Accepting a ticket signals ownership. It tells the team the work has a clear dri
 
 ### 6. Common Mistakes
 
-* Accepting work without understanding it
-* Silent ownership (no comment, no updates)
-* Taking on too much in one go
-* Delivering a big, risky PR
+- Accepting work without understanding it
+- Silent ownership (no comment, no updates)
+- Taking on too much in one go
+- Delivering a big, risky PR
 
 ### 7. Mini-Exercise for Learners
 
-Write your own acceptance comment for this scenario: 
+Write your own acceptance comment for this scenario:
 
 A button in the UI sometimes fails to respond on mobile devices.
