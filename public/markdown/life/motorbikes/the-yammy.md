@@ -12,11 +12,11 @@ tags: fishing
 
 Definately my favourite bike so far. The Virago was 20 years old and went like it. I had it for a few years on the East coat of Australia. Used to go fishing on it and everything
 
-https://live.staticflickr.com/65535/54054194890_38d3cfcaa0_w.jpg
+[LinkOut title="Helen's Happy Hens" icon="bike" url="https://www.facebook.com/search/top?q=helen%27s%20happy%20hens"]
+
+![Helen the Chicken Lady](https://live.staticflickr.com/65535/54054194890_38d3cfcaa0_w.jpg)
 
 > New owner, Helen the Chicken Lady
-
-[LinkOut title="Helen's Happy Hens" icon="bike" url="https://www.facebook.com/search/top?q=helen%27s%20happy%20hens"]
 
 #### Boring Stuff
 

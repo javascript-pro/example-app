@@ -1,7 +1,7 @@
 ---
 order: 200
 title: Motorbikes
-description: A truth universally acknowledged
+description: 500cc Enfield Bullet, Goa. Mid 90's
 slug: /life/motorbikes
 icon: bike
 image: https://live.staticflickr.com/65535/54960975386_7e68cc3d17_z.jpg
