@@ -1492,12 +1492,8 @@
                 "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
                 "type": "file",
                 "tags": [
-                  "expertise",
-                  "accreditation",
-                  "fields",
-                  "work",
                   "tefl",
-                  "English as a Foreign Language"
+                  "coding"
                 ],
                 "excerpt": "Useful for teaching English to developers, where clear technical communication matters.\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s"
               },
@@ -1509,6 +1505,20 @@
                 "type": "folder",
                 "children": [
                   {
+                    "title": "How to Accept and Work on a Ticket",
+                    "slug": "/life/tefl/lessons/accepting-tickets",
+                    "order": 10,
+                    "icon": "lingua",
+                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "tefl",
+                      "coding"
+                    ],
+                    "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascriptpro/projects/8\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
+                    "newContent": true
+                  },
+                  {
                     "title": "GitHub Commits",
                     "slug": "/life/tefl/lessons/github-commit",
                     "order": 40,
@@ -1516,11 +1526,8 @@
                     "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
                     "type": "file",
                     "tags": [
-                      "expertise",
-                      "fields",
-                      "work",
                       "tefl",
-                      "English as a Foreign Language"
+                      "coding"
                     ],
                     "excerpt": "A practical module built around the language developers use when contributing to a codebase. The lesson covers the structure of clear commit messages, the tone expected in professional teams, and how "
                   },
@@ -1532,11 +1539,8 @@
                     "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
                     "type": "file",
                     "tags": [
-                      "expertise",
-                      "fields",
-                      "work",
                       "tefl",
-                      "English as a Foreign Language"
+                      "coding"
                     ],
                     "excerpt": "A followon lesson focusing on the language of collaboration. It shows how to write polite, direct, and technically accurate pull request descriptions. Learners practise giving feedback that is constru"
                   }
@@ -1544,28 +1548,19 @@
                 "icon": "lingua",
                 "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
                 "tags": [
-                  "expertise",
-                  "fields",
-                  "work",
                   "tefl",
-                  "English as a Foreign Language"
+                  "coding"
                 ],
-                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
-                "paywall": true
+                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid "
               }
             ],
             "icon": "lingua",
             "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
             "tags": [
-              "expertise",
-              "fields",
-              "work",
               "tefl",
-              "English as a Foreign Language"
+              "coding"
             ],
-            "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/githubcommit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UKregulated tea",
-            "newContent": true,
-            "paywall": true
+            "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/githubcommit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UKregulated tea"
           },
           {
             "title": "Aquaponics",
@@ -1599,14 +1594,54 @@
           },
           {
             "title": "Motorbikes",
-            "description": "A truth universally acknowledged",
+            "description": "500cc Enfield Bullet, Goa. Mid 90's",
             "slug": "/life/motorbikes",
             "order": 200,
             "type": "folder",
-            "children": [],
+            "children": [
+              {
+                "title": "Fred's 125",
+                "slug": "/life/motorbikes/freds-125",
+                "order": 20,
+                "icon": "bike",
+                "image": "https://live.staticflickr.com/65535/54961423439_a359c8626f_b.jpg",
+                "type": "file",
+                "excerpt": ""
+              },
+              {
+                "title": "Braap Cafe Racer",
+                "slug": "/life/motorbikes/braap_cafe_racer",
+                "order": 30,
+                "icon": "bike",
+                "image": "https://live.staticflickr.com/65535/54961418929_e101149241_b.jpg",
+                "type": "file",
+                "excerpt": "I got this bike for a steal. Quite literally if you follow the story below\n\n What's the story?\n\n[LinkOut title=\"infomoto.com.au\" icon=\"bike\" url=\"https://infomoto.com.au/features/riseandfallthestrange"
+              },
+              {
+                "title": "The Yammy",
+                "slug": "/life/motorbikes/the-yammy",
+                "order": 40,
+                "icon": "bike",
+                "image": "https://live.staticflickr.com/65535/54961424094_46f541ba49_b.jpg",
+                "type": "file",
+                "tags": [
+                  "fishing"
+                ],
+                "excerpt": "The Virago\n\nDefinately my favourite bike so far. The Virago was 20 years old and went like it. I had it for a few years on the East coat of Australia. Used to go fishing on it and everything\n\n[LinkOut"
+              },
+              {
+                "title": "The Benelli",
+                "slug": "/life/motorbikes/the-benelli",
+                "order": 50,
+                "icon": "bike",
+                "image": "https://live.staticflickr.com/65535/52353081519_47c76335a6_b.jpg",
+                "type": "file",
+                "excerpt": ""
+              }
+            ],
             "icon": "bike",
-            "image": "https://live.staticflickr.com/65535/54926888281_024d3ed9ee_o.jpg",
-            "excerpt": "“It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a motorbike.”\n\n― Jane Austen, Pride and Prejudice"
+            "image": "https://live.staticflickr.com/65535/54960975386_7e68cc3d17_z.jpg",
+            "excerpt": "Enfield Bullet, Goa. Mid 90's\n\n[PageGrid thumbnails=\"yes\" pages=\"/life/motorbikes/freds125, /life/motorbikes/braapcaferacer, /life/motorbikes/theyammy, /life/motorbikes/thebenelli\"]\n\n“It is a truth un"
           },
           {
             "title": "Skiing",

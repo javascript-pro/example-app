@@ -6,6 +6,7 @@ slug: /work/experience/boral
 icon: case
 image: https://live.staticflickr.com/65535/54950372920_bd9247d0b5_b.jpg
 tags: expertise, interview, boral
+noImage: true
 ---
 
 > (2018)

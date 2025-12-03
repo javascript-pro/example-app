@@ -488,12 +488,44 @@
     "content": "\n[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/tefl, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/balance/writers/generation-x)\n"
   },
   {
+    "slug": "life/motorbikes/braap_cafe_racer",
+    "title": "Braap Cafe Racer",
+    "description": "Rise and fall; The strange history of Braaap Motorcycles",
+    "image": "https://live.staticflickr.com/65535/54961418929_e101149241_b.jpg",
+    "tags": [],
+    "content": "\nI got this bike for a steal. Quite literally if you follow the story below\n\n### What's the story?\n\n[LinkOut title=\"infomoto.com.au\" icon=\"bike\" url=\"https://infomoto.com.au/features/rise-and-fall-the-strange-history-of-braaap-motorcycles/\"]\n\nIn the late 2000s, Braaap Motorcycles seemed unstoppable as it managed to carve out a niche in the competitive recreational motorcycle market.\n\n> In 2015, Braaap saw sales growth of approximately 400 per cent.\n\nSo much so that, for a moment, it had a number of Japanese giants on their toes. But when allegations of fraud made headlines in 2016, the reputation of Australias Own Motorcycle Company quickly turned sour\n"
+  },
+  {
+    "slug": "life/motorbikes/freds-125",
+    "title": "Fred's 125",
+    "description": "Dead man's reg",
+    "image": "https://live.staticflickr.com/65535/54961423439_a359c8626f_b.jpg",
+    "tags": [],
+    "content": ""
+  },
+  {
     "slug": "life/motorbikes/index",
     "title": "Motorbikes",
-    "description": "A truth universally acknowledged",
-    "image": "https://live.staticflickr.com/65535/54926888281_024d3ed9ee_o.jpg",
+    "description": "500cc Enfield Bullet, Goa. Mid 90's",
+    "image": "https://live.staticflickr.com/65535/54960975386_7e68cc3d17_z.jpg",
     "tags": [],
-    "content": "\n> “It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a motorbike.”\n\n― Jane Austen, Pride and Prejudice\n"
+    "content": "\n> Enfield Bullet, Goa. Mid 90's\n\n[PageGrid thumbnails=\"yes\" pages=\"/life/motorbikes/freds-125, /life/motorbikes/braap_cafe_racer, /life/motorbikes/the-yammy, /life/motorbikes/the-benelli\"]\n\n“It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a motorbike.”\n\n― Jane Austen, Pride and Prejudice\n"
+  },
+  {
+    "slug": "life/motorbikes/the-benelli",
+    "title": "The Benelli",
+    "description": "Malta friendly",
+    "image": "https://live.staticflickr.com/65535/52353081519_47c76335a6_b.jpg",
+    "tags": [],
+    "content": ""
+  },
+  {
+    "slug": "life/motorbikes/the-yammy",
+    "title": "The Yammy",
+    "description": "Yamaha XV250",
+    "image": "https://live.staticflickr.com/65535/54961424094_46f541ba49_b.jpg",
+    "tags": "fishing",
+    "content": "\n> The Virago\n\nDefinately my favourite bike so far. The Virago was 20 years old and went like it. I had it for a few years on the East coat of Australia. Used to go fishing on it and everything\n\n[LinkOut title=\"Helen's Happy Hens\" icon=\"bike\" url=\"https://www.facebook.com/search/top?q=helen%27s%20happy%20hens\"]\n\n![Helen the Chicken Lady](https://live.staticflickr.com/65535/54054194890_38d3cfcaa0_w.jpg)\n\n> New owner, Helen the Chicken Lady\n\n#### Boring Stuff\n\nIn 1988 a 250 cc Virago was added. A short production of 125 cc was also manufactured. Yamaha made models which were chain driven, other models were equipped with shaft drive.\n\nThe larger-displacement Viragos were eventually phased out of production, replaced by the V-Star and Road Star series of motorbikes. The engines lived on, however.\n\nThe facelifted version of the original XV750/1100 powerplant was used in the V-star. The last motorcycle to bear the Virago name was the 2007 Virago 250.\n"
   },
   {
     "slug": "life/skiing/index",
@@ -508,7 +540,7 @@
     "title": "Accreditation",
     "description": "Level 5 TEFL Diploma",
     "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "expertise, accreditation, fields, work, tefl, English as a Foreign Language,",
+    "tags": "tefl, coding",
     "content": "\n> Useful for teaching English to developers, where clear technical communication matters.\n\nThe Level 5 TEFL Diploma is a UK-regulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means the syllabus, assessments, and learning outcomes meet national education standards rather than being “just another online certificate”.\n\n#### What it covers\n\n- Core grammar and language systems\n- Lesson planning, scaffolding, and classroom management\n- Teaching reading, writing, listening, and speaking\n- Pronunciation and phonology\n- Error correction and feedback techniques\n- Needs analysis and designing targeted lessons\n- Teaching English for Specific Purposes (ESP), including business and technical English\n- Using digital tools and AI effectively in language teaching\n- A full practicum/teaching portfolio to demonstrate competence\n\n> Internationally recognised: Accepted by reputable schools, online platforms, and employers worldwide.\n\nProfessional depth: Goes far beyond basic 120-hour TEFL certificates; it prepares you to design and deliver high-quality lessons.\n\nCredibility: Ofqual regulation gives it weight and signals that you’ve completed a structured, assessed programme.\n\nBetter job access and pay: Level 5 credentials are often preferred for more specialised or higher-paid online teaching roles.\n\nStrong foundation for niches: Particularly useful for teaching English to developers, where clear technical communication matters.\n"
   },
   {
@@ -516,15 +548,23 @@
     "title": "TEFL",
     "description": "English for working in software development",
     "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "expertise, fields, work, tefl, English as a Foreign Language,",
+    "tags": "tefl, coding",
     "content": "\n> Level 5 TEFL Diploma, a UK-regulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/github-commit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UK-regulated teaching credential equivalent to a foundation-level qualification. It’s internationally recognised and designed for professional English teaching, with modules covering grammar, lesson planning, communication skills, and the use of AI in language learning.\n\n#### Lessons\n\n#### Technical Stand-Ups and Status Updates\n\nA session on speaking skills for daily stand-ups and asynchronous status posts. It teaches a simple structure for explaining blockers, progress, and next steps. Learners work on clarity, brevity, and confidence — avoiding over-long explanations while still giving enough detail for a team to act on.\n\n#### Bug Reports and Issue Tracking\n\nA writing module centred on JIRA/GitHub Issues. It covers how to describe reproduction steps, expected behaviour, environment details, and impact. The lesson helps learners avoid vague phrasing and adopt the concise, action-oriented style expected in engineering teams.\n\n#### Working in English-Speaking Teams\n\nA communication module that introduces the unwritten norms of English-language engineering culture: hedging, softening, tone control, and diplomatic disagreement. It includes practical scripts for planning, clarifying requirements, asking for help, and negotiating deadlines.\n"
+  },
+  {
+    "slug": "life/tefl/lessons/accepting-tickets",
+    "title": "How to Accept and Work on a Ticket",
+    "description": "Level, Aim, Target",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascript-pro/projects/8\" ]\n\n### 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signals ownership. It tells the team the work has a clear driver and gives stakeholders confidence that progress is underway.\n\n### 2. What a Good Acceptance Comment Does\n\n- Confirms you’re taking responsibility\n- Shows understanding of the problem\n- Sets expectations for approach and scope\n- Reassures the team you’ll deliver safely\n\n### 3. Example Acceptance Comment\n\n> “Happy to take this one. The current search is stable but basic, so the goal is to improve matching, relevance, and UI behaviour to make the whole flow feel more intuitive. Work will be delivered in small, safe increments to keep everything stable.”\n\n### 4. Why This Works\n\n- Positive tone shows engagement\n- Clear understanding of the current state\n- Realistic goals set the direction\n- Incremental delivery reduces risk\n\n### 5. Steps After Accepting the Ticket\n\n1. Re-read the description to confirm requirements\n2. Identify unknowns — ask clarifying questions early\n3. Break the work down into small, deliverable parts\n4. Plan your first commit (setup, refactor, or tests)\n5. Communicate progress through updates and small PRs\n6. Close the ticket once tested and merged\n\n### 6. Common Mistakes\n\n- Accepting work without understanding it\n- Silent ownership (no comment, no updates)\n- Taking on too much in one go\n- Delivering a big, risky PR\n\n### 7. Mini-Exercise for Learners\n\nWrite your own acceptance comment for this scenario:\n\nA button in the UI sometimes fails to respond on mobile devices.\n"
   },
   {
     "slug": "life/tefl/lessons/github-commit",
     "title": "GitHub Commits",
     "description": "Contributing to a codebase in English",
     "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "expertise, fields, work, tefl, English as a Foreign Language,",
+    "tags": "tefl, coding",
     "content": "\nA practical module built around the language developers use when contributing to a codebase. The lesson covers the structure of clear commit messages, the tone expected in professional teams, and how to describe changes precisely. Learners practise writing concise commit summaries, explaining intent, and using conventional commit styles.\n\nThe session also introduces the vocabulary of version control — “diff”, “staging”, “pushing”, “branching”, “merge conflicts” — with short, realistic examples from everyday workflows. The goal is to help non-native developers communicate their work clearly, avoid misunderstandings in code reviews, and adopt team-friendly commit habits.\n"
   },
   {
@@ -532,15 +572,15 @@
     "title": "Lessons",
     "description": "English for working in software development",
     "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "expertise, fields, work, tefl, English as a Foreign Language,",
-    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/work/tefl/lessons/github-commit, /work/tefl/lessons/pull-requests\"]\n"
+    "tags": "tefl, coding",
+    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/life/tefl/lessons/accepting-tickets\"]\n"
   },
   {
     "slug": "life/tefl/lessons/pull-requests",
     "title": "Pull Requests",
     "description": "Write polite, direct, and technically accurate pull request descriptions",
     "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "expertise, fields, work, tefl, English as a Foreign Language,",
+    "tags": "tefl, coding",
     "content": "\nA follow-on lesson focusing on the language of collaboration. It shows how to write polite, direct, and technically accurate pull request descriptions. Learners practise giving feedback that is constructive, specific, and culturally appropriate for English-speaking engineering teams. The module includes example phrases for requesting changes, explaining decisions, and discussing trade-offs without sounding blunt or hesitant.\n"
   },
   {
