@@ -69,7 +69,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-function flattenNav(nav: any[], acc: TFlatItem[] = []): TFlatItem[] {
+function flattenNav(nav: any[], acc: TFlatItem[] = []) {
   for (const item of nav) {
     acc.push({
       title: item.title,
@@ -102,7 +102,6 @@ export default function Search({ onTrigger = () => {} }: TSearch) {
     );
   }, [query, flatItems]);
 
-  // Open results only when there are matches
   useEffect(() => {
     setOpen(results.length > 0);
     setHighlightIndex(results.length > 0 ? 0 : -1);
@@ -166,9 +165,9 @@ export default function Search({ onTrigger = () => {} }: TSearch) {
             elevation={6}
             sx={{
               position: 'absolute',
-              top: '100%',
+              bottom: '100%', // popup ABOVE
               left: 0,
-              mt: 0.5,
+              mb: 0.5, // spacing above input
               zIndex: 1300,
               width: '100%',
               maxHeight: 300,

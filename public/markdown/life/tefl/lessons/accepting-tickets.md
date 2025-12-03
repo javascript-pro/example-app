@@ -7,11 +7,13 @@ type: lesson
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: tefl, coding
-paywall: true
+paywall: false
 newContent: true
 ---
 
 > Lesson: How to Accept and Work on a Ticket
+
+[GitHub label="Example Kanban Board" url="https://github.com/users/javascript-pro/projects/8" ]
 
 ### 1. Purpose of Accepting a Ticket
 

@@ -6,7 +6,7 @@ slug: /life/tefl/accreditation
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: tefl, coding
-paywall: true
+paywall: false
 ---
 
 > Useful for teaching English to developers, where clear technical communication matters.
