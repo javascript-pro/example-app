@@ -5,8 +5,8 @@ description: Level 5 TEFL Diploma
 slug: /life/tefl/accreditation
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
-tags: expertise, accreditation, fields, work, tefl, English as a Foreign Language,
-paywall: true
+tags: tefl, coding
+paywall: false
 ---
 
 > Useful for teaching English to developers, where clear technical communication matters.

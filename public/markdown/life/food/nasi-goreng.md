@@ -6,7 +6,6 @@ slug: /life/food/nasi-goreng
 icon: food
 image: https://live.staticflickr.com/65535/54926293607_b77e119765_b.jpg
 tags: food, garlic, recipes, indonesian, goreng, nasi, rice, kecap manis, shrimp paste, chillies, tamarind, lime
-paywall: true
 ---
 
 > **Nasi Goreng** is an Indonesian dish made from leftover rice stir-fried with garlic, shallots, chilli, and sweet soy sauce (kecap manis). Often enriched with prawns, chicken, or beef. Usually finished with prawn crackers a fried egg and a side of crisp cucumber

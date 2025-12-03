@@ -6,6 +6,7 @@ slug: /work/experience/eras
 icon: case
 image: https://live.staticflickr.com/65535/54950372920_bd9247d0b5_b.jpg
 tags: eras
+noImage: true
 ---
 
 > Evolution from the Flash era with basic dial-up experiences to today's AI-enhanced, cloud-native web apps built on React and Next.js

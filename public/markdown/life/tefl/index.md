@@ -4,10 +4,8 @@ title: TEFL
 description: English for working in software development
 slug: /life/tefl
 icon: lingua
-image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
-tags: expertise, fields, work, tefl, English as a Foreign Language,
-paywall: true
-newContent: true
+image: https://live.staticflickr.com/65535/54961555290_fd37b073a9_b.jpg
+tags: tefl, coding
 ---
 
 > Level 5 TEFL Diploma, a UK-regulated teaching credential
