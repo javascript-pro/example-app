@@ -1283,12 +1283,34 @@
                 "excerpt": "Neuromancer's (1984) portrayal of AIs striving for autonomy foreshadowed realworld debates. Neuromancer didn’t predict the future—it just defined how to imagine it\n\n Why Neuromancer is Seminal in SciF"
               },
               {
-                "title": "Starship Troppers",
+                "title": "Starship Troopers",
+                "description": "by Robert A. Heinlein, 1959",
                 "slug": "/life/books/starship-troopers",
                 "order": 60,
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "Puppy Fascist",
+                    "slug": "/life/books/starship-troopers/puppy-fascist",
+                    "order": 70,
+                    "icon": "books",
+                    "image": "https://live.staticflickr.com/65535/54961864707_9973ab17f7_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "sci-fi",
+                      "fiction",
+                      "classics",
+                      "dystopia",
+                      "fascistic",
+                      "fascism",
+                      "fascist"
+                    ],
+                    "excerpt": "Punishment is a natural and necessary part of enforcing social order\n\nIn Starship Troopers, Lieutenant Colonel Jean V. Dubois uses the example of puppy training to argue that punishment is a natural a",
+                    "newContent": true
+                  }
+                ],
                 "icon": "books",
                 "image": "https://live.staticflickr.com/65535/54961864707_9973ab17f7_b.jpg",
-                "type": "file",
                 "tags": [
                   "Science Fiction",
                   "Fiction",

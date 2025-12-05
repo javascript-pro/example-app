@@ -1,6 +1,6 @@
 ---
 order: 60
-title: Starship Troppers
+title: Starship Troopers
 description: by Robert A. Heinlein, 1959
 slug: /life/books/starship-troopers
 icon: books
