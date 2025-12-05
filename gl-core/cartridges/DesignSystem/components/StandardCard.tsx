@@ -58,7 +58,6 @@ export function StandardCard({
     >
       <CardHeader
         avatar={<Icon icon={icon as any} color="secondary" />}
-
         title={
           <Typography
             variant="h6"
