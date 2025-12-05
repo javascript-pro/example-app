@@ -76,6 +76,10 @@ export default function UserDialog() {
 
             {/* User or SignIn */}
             <Grid size={{ xs: 12, md: 6 }}>
+              <Box sx={{ mt: 2 }}>
+                <MenuSystem />
+              </Box>
+
               {user ? <User /> : <SignIn />}
 
               {/* ----------------------------------------- */}
@@ -133,9 +137,6 @@ export default function UserDialog() {
                     sx={{ width: 48, height: 48 }}
                   />
                 )}
-              </Box>
-              <Box sx={{ mt: 2 }}>
-                <MenuSystem />
               </Box>
             </Grid>
           </Grid>

@@ -9,6 +9,7 @@ import React, {
   useRef,
   useCallback,
   useEffect,
+  use,
 } from 'react';
 import {
   styled,
@@ -20,6 +21,7 @@ import {
   ListItemText,
   Paper,
   ClickAwayListener,
+  useTheme,
 } from '@mui/material';
 import { useDispatch, routeTo } from '../../../../gl-core';
 import { Icon } from '../../../cartridges/DesignSystem';
@@ -29,21 +31,25 @@ const SearchWrapper = styled(Box)(() => ({
   display: 'inline-block',
 }));
 
-const SearchField = styled('div')(({ theme }) => ({
-  position: 'relative',
-  borderRadius: theme.shape.borderRadius,
-  backgroundColor:
-    theme.palette.mode === 'dark'
-      ? alpha(theme.palette.common.white, 0.1)
-      : alpha(theme.palette.common.white, 0.15),
-  '&:hover': {
-    backgroundColor:
-      theme.palette.mode === 'dark'
-        ? alpha(theme.palette.common.white, 0.15)
-        : alpha(theme.palette.common.white, 0.18),
-  },
-  width: '100%',
-}));
+const SearchField = styled('div')(({ theme }) => {
+  const muiTheme = useTheme();
+  return {
+    position: 'relative',
+    borderRadius: theme.shape.borderRadius,
+    background: muiTheme.palette.background.paper,
+    // backgroundColor:
+    //   theme.palette.mode === 'dark'
+    //     ? alpha(theme.palette.common.white, 0.1)
+    //     : alpha(theme.palette.common.white, 0.15),
+    '&:hover': {
+      // backgroundColor:
+      //   theme.palette.mode === 'dark'
+      //     ? alpha(theme.palette.common.white, 0.15)
+      //     : alpha(theme.palette.common.white, 0.18),
+    },
+    width: '100%',
+  };
+});
 
 const SearchIconWrapper = styled('div')(({ theme }) => ({
   padding: theme.spacing(0, 2),

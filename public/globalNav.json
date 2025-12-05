@@ -122,6 +122,65 @@
             "excerpt": "[LinkOut title=\"Google Doc\" icon=\"google\" url=\"https://docs.google.com/document/d/1KgpbzwVlVF5PXVqJXEhFp52QolOWlVptecAo4JU7Zo/edit?usp=sharing\"]\n\n[LinkOut title=\"Download PDF\" icon=\"download\" url=\"/pd"
           },
           {
+            "title": "TEFL",
+            "description": "English for Software Developers",
+            "slug": "/work/tefl",
+            "order": 12,
+            "type": "folder",
+            "children": [
+              {
+                "title": "Accreditation",
+                "slug": "/work/tefl/accreditation",
+                "order": 20,
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "type": "file",
+                "tags": [
+                  "tefl",
+                  "coding"
+                ],
+                "excerpt": "The Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means the syllabus, assessments, and learning outcomes meet na"
+              },
+              {
+                "title": "Lessons",
+                "description": "English for working in software development",
+                "slug": "/work/tefl/lessons",
+                "order": 40,
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "How to Accept and Work on a Ticket",
+                    "slug": "/work/tefl/lessons/accepting-tickets",
+                    "order": 10,
+                    "icon": "lingua",
+                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "tefl",
+                      "coding"
+                    ],
+                    "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascriptpro/projects/8\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
+                    "newContent": true
+                  }
+                ],
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "tags": [
+                  "tefl",
+                  "coding"
+                ],
+                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid "
+              }
+            ],
+            "icon": "lingua",
+            "image": "https://live.staticflickr.com/65535/54961555290_fd37b073a9_b.jpg",
+            "tags": [
+              "tefl",
+              "coding"
+            ],
+            "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\n Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and"
+          },
+          {
             "title": "Example",
             "description": "Open Source",
             "slug": "/work/example-app",
@@ -1463,6 +1522,27 @@
                 "excerpt": "2 Large peppers (capsicums)\n 1 125g pack of mozzarella\n Enough of your best, most delicious bolognaise to fill the peppers\n\n STEP 1\n\nPrepare Air Fryer pan. Line it with tinfoil if you want to keep it "
               },
               {
+                "title": "Tiramisu",
+                "slug": "/life/food/tiramisu",
+                "order": 35,
+                "icon": "food",
+                "image": "https://live.staticflickr.com/65535/54964823091_db0746055d_b.jpg",
+                "type": "file",
+                "tags": [
+                  "food",
+                  "chocolate",
+                  "orange",
+                  "eggs",
+                  "caster sugar",
+                  "mascarpone",
+                  "espresso",
+                  "panettone",
+                  "baileys"
+                ],
+                "excerpt": "Ingredients\n\n 2 large egg yolks\n 50g caster sugar\n 250g mascarpone\n 120ml strong espresso, cooled\n 5 tbsp Baileys & Terry’s Chocolate Orange Irish Cream Liqueur\n 1 mini panettone (approx. 80–100g)\n Co",
+                "newContent": true
+              },
+              {
                 "title": "Banana Bread",
                 "slug": "/life/food/banana-bread",
                 "order": 50,
@@ -1516,65 +1596,6 @@
             "icon": "food",
             "image": "/jpg/wei-zang/wei-zangs-food.jpg",
             "excerpt": "You want a recipe? The interweb's full of them. This is how I cook\n\n[PageGrid pages=\"/life/food/bladdygiveitsome, /life/food/nasigoreng, /life/food/airfriedpeppers, /life/food/bananabread, /life/food/"
-          },
-          {
-            "title": "TEFL",
-            "description": "English for working in software development",
-            "slug": "/life/tefl",
-            "order": 120,
-            "type": "folder",
-            "children": [
-              {
-                "title": "Accreditation",
-                "slug": "/life/tefl/accreditation",
-                "order": 20,
-                "icon": "lingua",
-                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                "type": "file",
-                "tags": [
-                  "tefl",
-                  "coding"
-                ],
-                "excerpt": "Useful for teaching English to developers, where clear technical communication matters.\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s"
-              },
-              {
-                "title": "Lessons",
-                "description": "English for working in software development",
-                "slug": "/life/tefl/lessons",
-                "order": 40,
-                "type": "folder",
-                "children": [
-                  {
-                    "title": "How to Accept and Work on a Ticket",
-                    "slug": "/life/tefl/lessons/accepting-tickets",
-                    "order": 10,
-                    "icon": "lingua",
-                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                    "type": "file",
-                    "tags": [
-                      "tefl",
-                      "coding"
-                    ],
-                    "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascriptpro/projects/8\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
-                    "newContent": true
-                  }
-                ],
-                "icon": "lingua",
-                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                "tags": [
-                  "tefl",
-                  "coding"
-                ],
-                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid "
-              }
-            ],
-            "icon": "lingua",
-            "image": "https://live.staticflickr.com/65535/54961555290_fd37b073a9_b.jpg",
-            "tags": [
-              "tefl",
-              "coding"
-            ],
-            "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/githubcommit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UKregulated tea"
           },
           {
             "title": "Aquaponics",
@@ -1671,7 +1692,7 @@
         ],
         "icon": "life",
         "image": "https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg",
-        "excerpt": "[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/tefl, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n ⚠️ Cultural reference: Generation X, Tales for an Accelerated "
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a"
       },
       {
         "title": "Balance",

@@ -13,7 +13,10 @@ import globalNav from '../../../public/globalNav.json';
 function buildTitleMap(nav: any[], parentPath = ''): Record<string, string> {
   let map: Record<string, string> = {};
   for (const item of nav) {
-    const fullPath = (parentPath + '/' + (item.slug || '')).replace(/\/+/g, '/');
+    const fullPath = (parentPath + '/' + (item.slug || '')).replace(
+      /\/+/g,
+      '/',
+    );
 
     if (item.title) {
       map[fullPath] = item.title;
@@ -34,8 +37,29 @@ const titleMap = buildTitleMap(globalNav);
  */
 function smartCapitalize(label: string): string {
   const knownAcronyms = [
-    'AI','API','SEO','UI','UX','HTTP','HTTPS','TEFL','APIS','GDPR','NPM','CV',
-    'JSON','SQL','CSS','HTML','JS','TS','NLP','ML','GPU','SSR','SSG'
+    'AI',
+    'API',
+    'SEO',
+    'UI',
+    'UX',
+    'HTTP',
+    'HTTPS',
+    'TEFL',
+    'APIS',
+    'GDPR',
+    'NPM',
+    'CV',
+    'JSON',
+    'SQL',
+    'CSS',
+    'HTML',
+    'JS',
+    'TS',
+    'NLP',
+    'ML',
+    'GPU',
+    'SSR',
+    'SSG',
   ];
   if (!label) return label;
 
@@ -69,7 +93,7 @@ function Params() {
 
   // Filter visible params
   const entries = Array.from(searchParams.entries()).filter(
-    ([key]) => !HIDDEN_PARAMS.includes(key.toLowerCase())
+    ([key]) => !HIDDEN_PARAMS.includes(key.toLowerCase()),
   );
 
   if (entries.length === 0) return null;
@@ -81,10 +105,7 @@ function Params() {
         <React.Fragment key={key}>
           {index !== 0 && <span>&</span>}
           <span className="px-1">
-            <span className="animate-[highlight_1s_ease-in-out_1]">
-              {key}
-            </span>
-            =
+            <span className="animate-[highlight_1s_ease-in-out_1]">{key}</span>=
             <span className="animate-[highlight_1s_ease-in-out_1]">
               {value}
             </span>

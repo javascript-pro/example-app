@@ -2,7 +2,7 @@
 order: 10
 title: How to Accept and Work on a Ticket
 description: Level, Aim, Target
-slug: /life/tefl/lessons/accepting-tickets
+slug: /work/tefl/lessons/accepting-tickets
 type: lesson
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg

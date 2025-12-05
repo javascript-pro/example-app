@@ -188,6 +188,9 @@
     <loc>https://goldlabel.pro/life/food/nasi-goreng</loc>
   </url>
   <url>
+    <loc>https://goldlabel.pro/life/food/tiramisu</loc>
+  </url>
+  <url>
     <loc>https://goldlabel.pro/life</loc>
   </url>
   <url>
@@ -207,18 +210,6 @@
   </url>
   <url>
     <loc>https://goldlabel.pro/life/skiing</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/life/tefl/accreditation</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/life/tefl</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/life/tefl/lessons/accepting-tickets</loc>
-  </url>
-  <url>
-    <loc>https://goldlabel.pro/life/tefl/lessons</loc>
   </url>
   <url>
     <loc>https://goldlabel.pro/work/about/gdpr</loc>
@@ -420,5 +411,17 @@
   </url>
   <url>
     <loc>https://goldlabel.pro/work/skills/javascript/vercel</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/work/tefl/accreditation</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/work/tefl</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/work/tefl/lessons/accepting-tickets</loc>
+  </url>
+  <url>
+    <loc>https://goldlabel.pro/work/tefl/lessons</loc>
   </url>
 </urlset>

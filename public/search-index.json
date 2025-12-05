@@ -496,12 +496,20 @@
     "content": "\n> **Nasi Goreng** is an Indonesian dish made from leftover rice stir-fried with garlic, shallots, chilli, and sweet soy sauce (kecap manis). Often enriched with prawns, chicken, or beef. Usually finished with prawn crackers a fried egg and a side of crisp cucumber\n\nIf you are also [Generation X](/balance/books/douglas-coupland/generation-x) then maybe you travelled in Indonesia and remember Nasi Goreng as being the most delisious thing in the world ever, but you've never been able to recreate it?\n\nExtra Doubleplus Bonus for having either or both of these specialist ingredients which would _really_ seal the flavour deal and take you back to climbing Mt Rinjani on Lombok.\n\n## Main flavours\n\n- Sweet and sticky from kecap manis\n- Umami and slight funk from shrimp paste\n- Heat from chillies\n- Aromatics from garlic and shallot\n- A little tang from tamarind or lime\n\n### Kecap manis\n\nIndonesian sweet soy sauce. Thick, glossy, caramel-like, and built from soy sauce reduced with palm sugar plus aromatics (garlic, star anise, galangal, bay leaf).\n\n### Nasi Goreng paste\n\nNasi Goreng paste is a concentrated seasoning blend used to build the core flavour of Indonesian fried rice. It usually contains sweet soy sauce (kecap manis), garlic, shallot, chilli, tamarind, shrimp paste, and warm spices such as coriander and galangal. It gives the dish its deep caramel colour and the balance of sweet, savoury, spicy, and smoky-fermented notes.\n\n#### How to use the paste\n\nYou fry the paste first. A teaspoon or two goes into hot oil so it can cook out, darken slightly, and perfume the pan. Once fragrant, you add protein and vegetables, then finally cold cooked rice so the paste coats the grains evenly. A splash of kecap manis at the end tightens the colour and seasoning.\n\n#### How not to use the paste\n\n- Adding the paste too late: you end up with raw, harsh flavours.\n- Using warm or freshly cooked rice: it turns mushy instead of smoky and separate.\n- Using too much paste: the dish becomes cloying, overly sweet, or sludge-like.\n\nIf you want to recreate authentically traditional Nasi Goreng from scratch,first have a chinese the night before. There's always some berk who's ordered too much rice and nobody likes cold boily rice hanging round the fridge\n\nHere's what you also kind of need. Substitute as needed\n\n### Protein\n\nWhich protein are you going to use out of these?\n\n- Prawns\n- Eggs\n- Chicken\n- [Seal](/balance/writing/not-here-to-fuck-spiders/puppy-thing)\n- Tofu\n\nor none of the above if you want\n\n### Vegetables\n\nWhich vegetables have you got out of these?\n\n- Spring onions\n- Red onions\n- Finely sliced savoy cabbage\n- Fresh, finely sliced, deseeded chilli\n- Fresh parsly/chives\n- Julienned carrot\n- Mangetout/ Sugersnap\n\n### Sauce\n\n- Chilli\n- Garlic\n- Ginger\n- Soy\n- Ketjap Manis\n- Shallots/Spring Onions\n- Oil (semame is good)\n- Sugar\n- Lime Juice\n"
   },
   {
+    "slug": "life/food/tiramisu",
+    "title": "Tiramisu",
+    "description": "Serves 4 not very fat people",
+    "image": "https://live.staticflickr.com/65535/54964823091_db0746055d_b.jpg",
+    "tags": "food, chocolate, orange, eggs, caster sugar, mascarpone, espresso, panettone, baileys",
+    "content": "\n#### Ingredients\n\n- 2 large egg yolks\n- 50g caster sugar\n- 250g mascarpone\n- 120ml strong espresso, cooled\n- 5 tbsp Baileys & Terry’s Chocolate Orange Irish Cream Liqueur\n- 1 mini panettone (approx. 80–100g)\n- Cocoa powder for dusting\n\n[LinkOut title=\"Baileys & Terry’s Chocolate Orange Irish Cream Liqueur\" url=\"https://www.baileys.com/en-gb/products/baileys-terrys-chocolate-orange-liqueur\"]\n\n#### Method\n\n1. Cream base. Whisk yolks and sugar until pale and thick.\n   Fold in mascarpone until smooth\n2. Coffee mix. Combine espresso and Baileys in a bowl\n3. Prepare the panettone. Slice into thin discs or cubes. Give each piece a very quick dip in the coffee mix\n4. Assemble\n\n   - Pack a layer of dipped panettone into a small dish  \n      (roughly 12–15cm square, or two ramekins)\n   - Spread half the mascarpone\n   - Add another layer of dipped panettone\n   - Finish with the remaining mascarpone\n\n5. Chill. Refrigerate 6 hours or overnight\n6. Finish. Dust with cocoa just before serving\n"
+  },
+  {
     "slug": "life/index",
     "title": "Life",
     "description": "Generation X at 50",
     "image": "https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg",
     "tags": [],
-    "content": "\n[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/tefl, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/balance/writers/generation-x)\n"
+    "content": "\n[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/balance/writers/generation-x)\n"
   },
   {
     "slug": "life/motorbikes/braap_cafe_racer",
@@ -550,38 +558,6 @@
     "image": "/png/n64/punk.png",
     "tags": [],
     "content": "\n[YouTube src=\"https://www.youtube.com/watch?v=wrgbTrGahKU\"]\n"
-  },
-  {
-    "slug": "life/tefl/accreditation",
-    "title": "Accreditation",
-    "description": "Level 5 TEFL Diploma",
-    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> Useful for teaching English to developers, where clear technical communication matters.\n\nThe Level 5 TEFL Diploma is a UK-regulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means the syllabus, assessments, and learning outcomes meet national education standards rather than being “just another online certificate”.\n\n#### What it covers\n\n- Core grammar and language systems\n- Lesson planning, scaffolding, and classroom management\n- Teaching reading, writing, listening, and speaking\n- Pronunciation and phonology\n- Error correction and feedback techniques\n- Needs analysis and designing targeted lessons\n- Teaching English for Specific Purposes (ESP), including business and technical English\n- Using digital tools and AI effectively in language teaching\n- A full practicum/teaching portfolio to demonstrate competence\n\n> Internationally recognised: Accepted by reputable schools, online platforms, and employers worldwide.\n\nProfessional depth: Goes far beyond basic 120-hour TEFL certificates; it prepares you to design and deliver high-quality lessons.\n\nCredibility: Ofqual regulation gives it weight and signals that you’ve completed a structured, assessed programme.\n\nBetter job access and pay: Level 5 credentials are often preferred for more specialised or higher-paid online teaching roles.\n\nStrong foundation for niches: Particularly useful for teaching English to developers, where clear technical communication matters.\n"
-  },
-  {
-    "slug": "life/tefl/index",
-    "title": "TEFL",
-    "description": "English for working in software development",
-    "image": "https://live.staticflickr.com/65535/54961555290_fd37b073a9_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> Level 5 TEFL Diploma, a UK-regulated teaching credential\n\n[PageGrid pages=\"/work/tefl/lessons, /work/tefl/lessons/github-commit\"]\n\nThe qualification underway is a Level 5 TEFL Diploma, a UK-regulated teaching credential equivalent to a foundation-level qualification. It’s internationally recognised and designed for professional English teaching, with modules covering grammar, lesson planning, communication skills, and the use of AI in language learning.\n\n#### Lessons\n\n#### Technical Stand-Ups and Status Updates\n\nA session on speaking skills for daily stand-ups and asynchronous status posts. It teaches a simple structure for explaining blockers, progress, and next steps. Learners work on clarity, brevity, and confidence — avoiding over-long explanations while still giving enough detail for a team to act on.\n\n#### Bug Reports and Issue Tracking\n\nA writing module centred on JIRA/GitHub Issues. It covers how to describe reproduction steps, expected behaviour, environment details, and impact. The lesson helps learners avoid vague phrasing and adopt the concise, action-oriented style expected in engineering teams.\n\n#### Working in English-Speaking Teams\n\nA communication module that introduces the unwritten norms of English-language engineering culture: hedging, softening, tone control, and diplomatic disagreement. It includes practical scripts for planning, clarifying requirements, asking for help, and negotiating deadlines.\n"
-  },
-  {
-    "slug": "life/tefl/lessons/accepting-tickets",
-    "title": "How to Accept and Work on a Ticket",
-    "description": "Level, Aim, Target",
-    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascript-pro/projects/8\" ]\n\n### 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signals ownership. It tells the team the work has a clear driver and gives stakeholders confidence that progress is underway.\n\n### 2. What a Good Acceptance Comment Does\n\n- Confirms you’re taking responsibility\n- Shows understanding of the problem\n- Sets expectations for approach and scope\n- Reassures the team you’ll deliver safely\n\n### 3. Example Acceptance Comment\n\n> “Happy to take this one. The current search is stable but basic, so the goal is to improve matching, relevance, and UI behaviour to make the whole flow feel more intuitive. Work will be delivered in small, safe increments to keep everything stable.”\n\n### 4. Why This Works\n\n- Positive tone shows engagement\n- Clear understanding of the current state\n- Realistic goals set the direction\n- Incremental delivery reduces risk\n\n### 5. Steps After Accepting the Ticket\n\n1. Re-read the description to confirm requirements\n2. Identify unknowns — ask clarifying questions early\n3. Break the work down into small, deliverable parts\n4. Plan your first commit (setup, refactor, or tests)\n5. Communicate progress through updates and small PRs\n6. Close the ticket once tested and merged\n\n### 6. Common Mistakes\n\n- Accepting work without understanding it\n- Silent ownership (no comment, no updates)\n- Taking on too much in one go\n- Delivering a big, risky PR\n\n### 7. Mini-Exercise for Learners\n\nWrite your own acceptance comment for this scenario:\n\nA button in the UI sometimes fails to respond on mobile devices.\n"
-  },
-  {
-    "slug": "life/tefl/lessons/index",
-    "title": "Lessons",
-    "description": "English for working in software development",
-    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/life/tefl/lessons/accepting-tickets\"]\n"
   },
   {
     "slug": "work/about/gdpr",
@@ -1118,5 +1094,37 @@
     "image": "/png/3rdParty/next_og.png",
     "tags": "Vercel, JavaScript, Node, Next.js, API, REST API, React",
     "content": "\n> Other services to deploy Next apps are available\n\nVercel created Next.js and runs the platform it was designed for. Deploys are instant, previews are automatic, and the hosting is globally fast without any configuration. You push to Git, and Vercel handles builds, routing, caching, edge functions, and rollbacks with almost no friction.\n\nFor deploying Next.js projects, nothing else comes close.\n"
+  },
+  {
+    "slug": "work/tefl/accreditation",
+    "title": "Accreditation",
+    "description": "Level 5 TEFL Diploma",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\nThe Level 5 TEFL Diploma is a UK-regulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means the syllabus, assessments, and learning outcomes meet national education standards rather than being “just another online certificate”.\n\n#### What it covers\n\n- Core grammar and language systems\n- Lesson planning, scaffolding, and classroom management\n- Teaching reading, writing, listening, and speaking\n- Pronunciation and phonology\n- Error correction and feedback techniques\n- Needs analysis and designing targeted lessons\n- Teaching English for Specific Purposes (ESP), including business and technical English\n- Using digital tools and AI effectively in language teaching\n- A full practicum/teaching portfolio to demonstrate competence\n\n> Internationally recognised: Accepted by reputable schools, online platforms, and employers worldwide.\n\nProfessional depth: Goes far beyond basic 120-hour TEFL certificates; it prepares you to design and deliver high-quality lessons.\n\nCredibility: Ofqual regulation gives it weight and signals that you’ve completed a structured, assessed programme.\n\nBetter job access and pay: Level 5 credentials are often preferred for more specialised or higher-paid online teaching roles.\n\nStrong foundation for niches: Particularly useful for teaching English to developers, where clear technical communication matters.\n"
+  },
+  {
+    "slug": "work/tefl/index",
+    "title": "TEFL",
+    "description": "English for Software Developers",
+    "image": "https://live.staticflickr.com/65535/54961555290_fd37b073a9_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> Level 5 TEFL Diploma, a UK-regulated teaching credential\n\n> Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nThe qualification underway is a Level 5 TEFL Diploma, a UK-regulated teaching credential equivalent to a foundation-level qualification. It’s internationally recognised and designed for professional English teaching, with modules covering grammar, lesson planning, communication skills, and the use of AI in language learning.\n\n#### Lessons\n"
+  },
+  {
+    "slug": "work/tefl/lessons/accepting-tickets",
+    "title": "How to Accept and Work on a Ticket",
+    "description": "Level, Aim, Target",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascript-pro/projects/8\" ]\n\n### 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signals ownership. It tells the team the work has a clear driver and gives stakeholders confidence that progress is underway.\n\n### 2. What a Good Acceptance Comment Does\n\n- Confirms you’re taking responsibility\n- Shows understanding of the problem\n- Sets expectations for approach and scope\n- Reassures the team you’ll deliver safely\n\n### 3. Example Acceptance Comment\n\n> “Happy to take this one. The current search is stable but basic, so the goal is to improve matching, relevance, and UI behaviour to make the whole flow feel more intuitive. Work will be delivered in small, safe increments to keep everything stable.”\n\n### 4. Why This Works\n\n- Positive tone shows engagement\n- Clear understanding of the current state\n- Realistic goals set the direction\n- Incremental delivery reduces risk\n\n### 5. Steps After Accepting the Ticket\n\n1. Re-read the description to confirm requirements\n2. Identify unknowns — ask clarifying questions early\n3. Break the work down into small, deliverable parts\n4. Plan your first commit (setup, refactor, or tests)\n5. Communicate progress through updates and small PRs\n6. Close the ticket once tested and merged\n\n### 6. Common Mistakes\n\n- Accepting work without understanding it\n- Silent ownership (no comment, no updates)\n- Taking on too much in one go\n- Delivering a big, risky PR\n\n### 7. Mini-Exercise for Learners\n\nWrite your own acceptance comment for this scenario:\n\nA button in the UI sometimes fails to respond on mobile devices.\n"
+  },
+  {
+    "slug": "work/tefl/lessons/index",
+    "title": "Lessons",
+    "description": "English for working in software development",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/work/tefl/lessons/accepting-tickets\"]\n\n#### Technical Stand-Ups and Status Updates\n\nA session on speaking skills for daily stand-ups and asynchronous status posts. It teaches a simple structure for explaining blockers, progress, and next steps. Learners work on clarity, brevity, and confidence — avoiding over-long explanations while still giving enough detail for a team to act on.\n\n#### Bug Reports and Issue Tracking\n\nA writing module centred on JIRA/GitHub Issues. It covers how to describe reproduction steps, expected behaviour, environment details, and impact. The lesson helps learners avoid vague phrasing and adopt the concise, action-oriented style expected in engineering teams.\n\n#### Working in English-Speaking Teams\n\nA communication module that introduces the unwritten norms of English-language engineering culture: hedging, softening, tone control, and diplomatic disagreement. It includes practical scripts for planning, clarifying requirements, asking for help, and negotiating deadlines.\n"
   }
 ]

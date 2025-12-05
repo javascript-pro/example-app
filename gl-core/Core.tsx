@@ -165,7 +165,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
                 </Box>
 
                 {/* WHAT'S NEW — COLLAPSE */}
-                <Box sx={{ mb: 1 }}>
+                <Box sx={{}}>
                   <Collapse in={showWhatsNew} unmountOnExit>
                     <Grid container spacing={1}>
                       {newContent?.map((item: any, i: number) => (

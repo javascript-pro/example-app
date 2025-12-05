@@ -1,20 +1,17 @@
 ---
-order: 120
-title: TEFL
+order: 40
+title: Lessons
 description: English for working in software development
-slug: /life/tefl
+slug: /work/tefl/lessons
 icon: lingua
-image: https://live.staticflickr.com/65535/54961555290_fd37b073a9_b.jpg
+image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: tefl, coding
+paywall: false
 ---
 
-> Level 5 TEFL Diploma, a UK-regulated teaching credential
+> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments
 
-[PageGrid pages="/work/tefl/lessons, /work/tefl/lessons/github-commit"]
-
-The qualification underway is a Level 5 TEFL Diploma, a UK-regulated teaching credential equivalent to a foundation-level qualification. It’s internationally recognised and designed for professional English teaching, with modules covering grammar, lesson planning, communication skills, and the use of AI in language learning.
-
-#### Lessons
+[PageGrid pages="/work/tefl/lessons/accepting-tickets"]
 
 #### Technical Stand-Ups and Status Updates
 

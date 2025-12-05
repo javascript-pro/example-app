@@ -7,7 +7,7 @@ icon: life
 image: https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg
 ---
 
-[PageGrid thumbnails="no" pages=" /life/books, /life/food, /life/tefl, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing"]
+[PageGrid thumbnails="no" pages=" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing"]
 
 > ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland
 

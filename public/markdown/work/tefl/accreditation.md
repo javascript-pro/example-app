@@ -2,14 +2,13 @@
 order: 20
 title: Accreditation
 description: Level 5 TEFL Diploma
-slug: /life/tefl/accreditation
+slug: /work/tefl/accreditation
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: tefl, coding
 paywall: false
 ---
-
-> Useful for teaching English to developers, where clear technical communication matters.
+> Level 5 TEFL Diploma, a UK-regulated teaching credential
 
 The Level 5 TEFL Diploma is a UK-regulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means the syllabus, assessments, and learning outcomes meet national education standards rather than being “just another online certificate”.
 
