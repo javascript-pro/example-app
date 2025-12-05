@@ -7,7 +7,7 @@
     "url": "https://github.com/goldlabelapps/example"
   },
   "scripts": {
-    "dev": "clear && rm -rf .next && yarn indexSearch && yarn format && yarn generate && next dev",
+    "dev": "clear && rm -rf .next && yarn format && yarn generate && next dev",
     "generate": "tsx generate.mjs && yarn indexSearch",
     "prepare": "husky install",
     "build": "next build",

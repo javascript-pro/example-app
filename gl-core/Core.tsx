@@ -137,7 +137,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
               {/* Tags + New Toggle + Share */}
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
                 <Box sx={{ ml: -1 }}>
-                  <Tags tags={tags}/>
+                  <Tags tags={tags} />
                 </Box>
 
                 {newContent?.length > 0 && (

@@ -2,12 +2,7 @@
 'use client';
 import * as React from 'react';
 import Link from 'next/link';
-import {
-  Box,
-  Chip,
-  Collapse,
-  IconButton,
-} from '@mui/material';
+import { Box, Chip, Collapse, IconButton } from '@mui/material';
 import { useDispatch, Icon } from '../../../../gl-core';
 import { useDesignSystem, setDesignSystemKey } from '../../DesignSystem';
 
@@ -25,7 +20,10 @@ export default function Tags({ tags }: TagsProps) {
   // Normalise frontmatter (comma-separated string → array)
   const tagList = Array.isArray(tags)
     ? tags
-    : tags.split(',').map((t) => t.trim()).filter(Boolean);
+    : tags
+        .split(',')
+        .map((t) => t.trim())
+        .filter(Boolean);
 
   if (tagList.length === 0) return null;
 
@@ -41,17 +39,17 @@ export default function Tags({ tags }: TagsProps) {
       <Collapse in={tagsOpen} unmountOnExit>
         <Box sx={{ mt: 1 }}>
           {tagList.map((tag: any, i: number) => (
-              <Chip
-                key={`tag_${i}`}
-                sx={{m:0.25}}
-                label={tag}
-                // component={Link}
-                // href={`/tag/${tag}`}
-                clickable
-                color="primary"
-                variant="outlined"
-                size="small"
-              />
+            <Chip
+              key={`tag_${i}`}
+              sx={{ m: 0.25 }}
+              label={tag}
+              // component={Link}
+              // href={`/tag/${tag}`}
+              clickable
+              color="primary"
+              variant="outlined"
+              size="small"
+            />
           ))}
         </Box>
       </Collapse>
