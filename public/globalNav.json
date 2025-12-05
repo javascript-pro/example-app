@@ -967,7 +967,7 @@
                       "nextjs",
                       "flickr"
                     ],
-                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Goldlabel RESTful API\" icon=\"ai\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilie",
+                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilient under ",
                     "newContent": true
                   },
                   {

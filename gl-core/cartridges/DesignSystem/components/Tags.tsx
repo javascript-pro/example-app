@@ -1,70 +1,60 @@
-// /Users/goldlabel/GitHub/example-app/gl-core/cartridges/DesignSystem/components/Tags.tsx
+// /Users/goldlabel/GitHub/example/gl-core/cartridges/DesignSystem/components/Tags.tsx
 'use client';
 import * as React from 'react';
+import Link from 'next/link';
 import {
-  Grid,
-  Dialog,
-  DialogActions,
-  DialogContent,
+  Box,
+  Chip,
+  Collapse,
   IconButton,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-  Typography,
 } from '@mui/material';
 import { useDispatch, Icon } from '../../../../gl-core';
 import { useDesignSystem, setDesignSystemKey } from '../../DesignSystem';
-import { usePaywallContent } from '../../Uberedux';
 
-export default function Tags() {
+type TagsProps = {
+  tags?: string | string[];
+};
+
+export default function Tags({ tags }: TagsProps) {
   const dispatch = useDispatch();
   const { tagsOpen } = useDesignSystem();
-  const paywallContent = usePaywallContent();
+
+  // No tags → render nothing
+  if (!tags) return null;
+
+  // Normalise frontmatter (comma-separated string → array)
+  const tagList = Array.isArray(tags)
+    ? tags
+    : tags.split(',').map((t) => t.trim()).filter(Boolean);
+
+  if (tagList.length === 0) return null;
 
   const toggleTagsOpen = () => {
     dispatch(setDesignSystemKey('tagsOpen', !tagsOpen));
   };
 
   return (
-    <>
-      {/* <IconButton color="secondary" onClick={toggleTagsOpen}>
+    <Box>
+      <IconButton color="secondary" onClick={toggleTagsOpen}>
         <Icon icon="tags" />
-      </IconButton> */}
-
-      <Dialog
-        fullWidth
-        open={tagsOpen}
-        onClose={toggleTagsOpen}
-        maxWidth={'sm'}
-      >
-        <DialogContent>
-          <Grid container spacing={2} sx={{ mb: 2 }}>
-            <Grid size={{ xs: 12, sm: 6 }}>
-              <Typography variant="h6">Tags for this page</Typography>
-            </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
-              <Typography>Other pages with any of those tags</Typography>
-            </Grid>
-          </Grid>
-        </DialogContent>
-
-        <Accordion sx={{ mx: 2, background: 0, boxShadow: 0 }}>
-          <AccordionSummary expandIcon={<Icon icon="up" color="primary" />}>
-            paywallContent:
-          </AccordionSummary>
-          <AccordionDetails>
-            <pre style={{ fontSize: '10px', margin: 0 }}>
-              {JSON.stringify(paywallContent, null, 2)}
-            </pre>
-          </AccordionDetails>
-        </Accordion>
-
-        <DialogActions>
-          <IconButton color="primary" onClick={toggleTagsOpen}>
-            <Icon icon="close" />
-          </IconButton>
-        </DialogActions>
-      </Dialog>
-    </>
+      </IconButton>
+      <Collapse in={tagsOpen} unmountOnExit>
+        <Box sx={{ mt: 1 }}>
+          {tagList.map((tag: any, i: number) => (
+              <Chip
+                key={`tag_${i}`}
+                sx={{m:0.25}}
+                label={tag}
+                // component={Link}
+                // href={`/tag/${tag}`}
+                clickable
+                color="primary"
+                variant="outlined"
+                size="small"
+              />
+          ))}
+        </Box>
+      </Collapse>
+    </Box>
   );
 }

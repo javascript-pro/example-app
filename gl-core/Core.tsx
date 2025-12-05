@@ -49,7 +49,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
   const newContent = useNewContent();
   const search = useSearch();
 
-  const { noImage, image, icon, title, description, paywall } =
+  const { noImage, image, icon, title, description, paywall, tags } =
     frontmatter ?? {};
 
   const [showWhatsNew, setShowWhatsNew] = React.useState(false);
@@ -137,7 +137,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
               {/* Tags + New Toggle + Share */}
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
                 <Box sx={{ ml: -1 }}>
-                  <Tags />
+                  <Tags tags={tags}/>
                 </Box>
 
                 {newContent?.length > 0 && (

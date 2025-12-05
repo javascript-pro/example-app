@@ -22,6 +22,7 @@ export default function MenuSystem() {
   const handleToggle = () => {
     const newMode = themeMode === 'dark' ? 'light' : 'dark';
     dispatch(setDesignSystemKey('themeMode', newMode));
+    dispatch(setPaywallKey('userDialog', false));
   };
 
   return (
