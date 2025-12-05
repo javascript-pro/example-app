@@ -13,10 +13,7 @@ import globalNav from '../../../public/globalNav.json';
 function buildTitleMap(nav: any[], parentPath = ''): Record<string, string> {
   let map: Record<string, string> = {};
   for (const item of nav) {
-    const fullPath = (parentPath + '/' + (item.slug || '')).replace(
-      /\/+/g,
-      '/',
-    );
+    const fullPath = (parentPath + '/' + (item.slug || '')).replace(/\/+/g, '/');
 
     if (item.title) {
       map[fullPath] = item.title;
@@ -30,67 +27,64 @@ function buildTitleMap(nav: any[], parentPath = ''): Record<string, string> {
   return map;
 }
 
-// Build a lookup table once
 const titleMap = buildTitleMap(globalNav);
 
 /**
- * Smart capitalisation helper:
- * - Preserves known acronyms (AI, API, SEO, UI, UX, HTTP, JSON, etc.)
- * - Title-cases normal words
- * - Leaves existing proper-case words like "Next.js" untouched
+ * Smart capitalisation helper
  */
 function smartCapitalize(label: string): string {
   const knownAcronyms = [
-    'AI',
-    'API',
-    'SEO',
-    'UI',
-    'UX',
-    'HTTP',
-    'HTTPS',
-    'TEFL',
-    'APIS',
-    'GDPR',
-    'NPM',
-    'CV',
-    'JSON',
-    'SQL',
-    'CSS',
-    'HTML',
-    'JS',
-    'TS',
-    'NLP',
-    'ML',
-    'API',
-    'GPU',
-    'SSR',
-    'SSG',
+    'AI','API','SEO','UI','UX','HTTP','HTTPS','TEFL','APIS','GDPR','NPM','CV',
+    'JSON','SQL','CSS','HTML','JS','TS','NLP','ML','GPU','SSR','SSG'
   ];
   if (!label) return label;
 
-  // Split into words (including hyphens and dots)
   return label
     .split(/[\s\-_]+/)
     .map((word) => {
       if (knownAcronyms.includes(word.toUpperCase())) return word.toUpperCase();
-      if (/[A-Z][a-z]/.test(word)) return word; // Already has internal capitalization
+      if (/[A-Z][a-z]/.test(word)) return word;
       return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     })
     .join(' ');
 }
 
+/**
+ * Hidden / tracking parameters we never show in breadcrumbs
+ */
+const HIDDEN_PARAMS = [
+  'fbclid',
+  'gclid',
+  'msclkid',
+  'utm_source',
+  'utm_medium',
+  'utm_campaign',
+  'utm_term',
+  'utm_content',
+];
+
 function Params() {
   const searchParams = useSearchParams();
-  if (!searchParams || searchParams.toString().length === 0) return null;
+  if (!searchParams) return null;
+
+  // Filter visible params
+  const entries = Array.from(searchParams.entries()).filter(
+    ([key]) => !HIDDEN_PARAMS.includes(key.toLowerCase())
+  );
+
+  if (entries.length === 0) return null;
 
   return (
     <Box component="span" sx={{ px: 1 }}>
       ?
-      {Array.from(searchParams.entries()).map(([key, value], index) => (
+      {entries.map(([key, value], index) => (
         <React.Fragment key={key}>
           {index !== 0 && <span>&</span>}
           <span className="px-1">
-            <span className="animate-[highlight_1s_ease-in-out_1]">{key}</span>=
+            <span className="animate-[highlight_1s_ease-in-out_1]">
+              {key}
+            </span>
+            =
             <span className="animate-[highlight_1s_ease-in-out_1]">
               {value}
             </span>
@@ -119,7 +113,6 @@ export function PageBreadcrumb({
         flexWrap: 'wrap',
       }}
     >
-      {/* Home link */}
       <NextLink href="/" passHref legacyBehavior>
         <MUILink underline="hover" color="primary" variant="caption">
           {smartCapitalize(titleMap['/'] || 'Home')}
@@ -131,14 +124,8 @@ export function PageBreadcrumb({
         const isLast = index === segments.length - 1;
 
         let label = titleMap[href];
-
-        if (!label && isLast && frontmatterTitle) {
-          label = frontmatterTitle;
-        }
-
-        if (!label) {
-          label = segment;
-        }
+        if (!label && isLast && frontmatterTitle) label = frontmatterTitle;
+        if (!label) label = segment;
 
         const displayLabel = smartCapitalize(label);
 
