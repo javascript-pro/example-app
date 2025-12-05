@@ -749,7 +749,7 @@
     "description": "20+ Years of coding",
     "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
-    "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/javascript-pro/projects/8\"]\n\n[LinkOut title=\"RESTful API\" icon=\"api\" url=\"/api\"]\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n"
+    "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/javascript-pro/projects/8\"]\n\n[LinkOut title=\"RESTful API\" icon=\"api\" url=\"/api\"]\n"
   },
   {
     "slug": "work/skills/ai/aki/index",

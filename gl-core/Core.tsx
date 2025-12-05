@@ -89,29 +89,24 @@ export default function Core({ frontmatter, body = null }: TCore) {
   return (
     <DesignSystem theme={config.themes[effectiveThemeMode]}>
       <Paywall />
-      <Container id="core" sx={{ mt: 2 }}>
+      <Container id="goldlabel" sx={{ mt: 2 }}>
         <Box sx={{ minHeight: '100vh' }}>
           <Grid container spacing={isMobile ? 0 : 1}>
-            <Grid size={{ xs: 1, md: 3 }}>
-              <Box
-                sx={{
-                  overflow: 'hidden',
-                  ml: isMobile ? -3 : 0,
-                }}
-              >
-                <Navigation />
-              </Box>
-            </Grid>
+            {!isMobile && (
+              <Grid size={{ xs: 1, md: 3 }}>
+                <Box>
+                  <Navigation />
+                </Box>
+              </Grid>
+            )}
 
             <Grid size={{ xs: 11, md: 9 }}>
               <Box sx={{ display: 'flex' }}>
                 <Box sx={{ mr: 2, mt: 1.5 }}>
                   <Icon icon={icon as any} color="primary" />
                 </Box>
-
                 <Typography
                   variant="h1"
-                  gutterBottom
                   color="primary"
                   sx={{
                     mt: 1,
@@ -120,11 +115,16 @@ export default function Core({ frontmatter, body = null }: TCore) {
                 >
                   {title !== 'Home' ? title : 'Goldlabel Apps'}
                 </Typography>
+                <Box sx={{ flexGrow: 1 }} />
+                {isMobile && (
+                  <Box>
+                    <Navigation />
+                  </Box>
+                )}
               </Box>
 
               <Typography
                 variant="h2"
-                gutterBottom
                 sx={{
                   fontSize: { xs: '1.1rem', md: '1.25rem' },
                 }}
@@ -139,18 +139,20 @@ export default function Core({ frontmatter, body = null }: TCore) {
                 <Box sx={{ ml: -1 }}>
                   <Tags tags={tags} />
                 </Box>
-
-                {newContent?.length > 0 && (
-                  <Tooltip title="What's New" arrow>
-                    <IconButton
-                      color="secondary"
-                      onClick={() => setShowWhatsNew((v) => !v)}
-                    >
-                      <Icon icon="news" />
-                    </IconButton>
-                  </Tooltip>
+                {newContent && (
+                  <>
+                    {newContent?.length > 0 && (
+                      <Tooltip title="What's New" arrow>
+                        <IconButton
+                          color="secondary"
+                          onClick={() => setShowWhatsNew((v) => !v)}
+                        >
+                          <Icon icon="news" />
+                        </IconButton>
+                      </Tooltip>
+                    )}
+                  </>
                 )}
-
                 <Box sx={{ mr: 1 }}>
                   <SharePopup />
                 </Box>

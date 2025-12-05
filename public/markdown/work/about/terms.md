@@ -11,7 +11,7 @@ noImage: true
 
 > Liability boundaries, intellectual-property ownership, and disputes
 
-## Our Terms & Conditions
+#### Our Terms & Conditions
 
 Define how this app should be used, what we’re responsible for, and what users can expect from the platform. For us, they set the legal framework covering content delivery, account access, service limitations, and acceptable use. For readers, they clarify rights, responsibilities, and the rules that apply when interacting with our software, APIs, and published material
 

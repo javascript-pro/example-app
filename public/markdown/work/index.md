@@ -11,12 +11,12 @@ noImage: true
 
 > Goldlabel builds and ships modern web apps for clients who need real results fast
 
+- _Small_ team. _Big_ output
+- Real deployments from Day One
+- Readable, extensible, Open Source
+
 [PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
 
 [LinkOut title="Kanban Board" icon="github" url="https://github.com/users/javascript-pro/projects/8"]
 
 [LinkOut title="RESTful API" icon="api" url="/api"]
-
-- _Small_ team. _Big_ output
-- Real deployments from Day One
-- Readable, extensible, Open Source

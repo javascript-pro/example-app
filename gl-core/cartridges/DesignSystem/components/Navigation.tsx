@@ -17,7 +17,11 @@ import {
 } from '@mui/material';
 
 import { useIsMobile, useDispatch } from '../../../../gl-core';
-import { Icon, setDesignSystemKey, useDesignSystem } from '../../../cartridges/DesignSystem';
+import {
+  Icon,
+  setDesignSystemKey,
+  useDesignSystem,
+} from '../../../cartridges/DesignSystem';
 
 // -------------------------------------------------------------
 // helper functions
@@ -62,7 +66,7 @@ function findParentContents(items: NavItem[], slug: string): NavItem[] | null {
 export default function Navigation() {
   const dispatch = useDispatch();
   const ds = useDesignSystem();
-  const navOpen = ds.navOpen;        // ← uses your DesignSystem store
+  const navOpen = ds.navOpen; // ← uses your DesignSystem store
   const pathname = usePathname();
   const router = useRouter();
   const isMobile = useIsMobile();
@@ -117,7 +121,10 @@ export default function Navigation() {
         ? [...contents].sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
         : null;
     } else {
-      const parentContents = findParentContents(globalNav as NavItem[], pathname);
+      const parentContents = findParentContents(
+        globalNav as NavItem[],
+        pathname,
+      );
       return parentContents
         ? [...parentContents].sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
         : null;
@@ -128,7 +135,6 @@ export default function Navigation() {
     if (!currentNode) return null;
     return findParent(globalNav as NavItem[], currentNode.slug);
   }, [currentNode]);
-
 
   // -------------------------------------------------------------
   // Navigation list rendering function (used in both desktop + drawer)
@@ -147,9 +153,13 @@ export default function Navigation() {
           <ListItemIcon>
             <Icon icon={(node.icon as any) || 'up'} color="secondary" />
           </ListItemIcon>
-            <ListItemText
-              primary={<Typography noWrap variant="body2">{node.title}</Typography>}
-            />
+          <ListItemText
+            primary={
+              <Typography noWrap variant="body2">
+                {node.title}
+              </Typography>
+            }
+          />
         </ListItemButton>
       ))}
 
@@ -164,9 +174,13 @@ export default function Navigation() {
           <ListItemIcon>
             <Icon icon={(parent.icon as any) || 'up'} color="secondary" />
           </ListItemIcon>
-            <ListItemText
-              primary={<Typography noWrap variant="body2">{parent.title}</Typography>}
-            />
+          <ListItemText
+            primary={
+              <Typography noWrap variant="body2">
+                {parent.title}
+              </Typography>
+            }
+          />
         </ListItemButton>
       )}
 
@@ -187,9 +201,13 @@ export default function Navigation() {
                 <ListItemIcon>
                   <Icon icon={item.icon as any} color="secondary" />
                 </ListItemIcon>
-                  <ListItemText
-                    primary={<Typography noWrap variant="body2">{item.title}</Typography>}
-                  />
+                <ListItemText
+                  primary={
+                    <Typography noWrap variant="body2">
+                      {item.title}
+                    </Typography>
+                  }
+                />
               </ListItemButton>
             );
           })}
@@ -197,7 +215,6 @@ export default function Navigation() {
       )}
     </Box>
   );
-
 
   // -------------------------------------------------------------
   // Mobile + Desktop rendering
@@ -208,7 +225,7 @@ export default function Navigation() {
     return (
       <>
         <IconButton
-          sx={{ ml: 1, mt: 0.5 }}
+          sx={{ mr: -1, mt: 0.5 }}
           color="primary"
           onClick={() => dispatch(setDesignSystemKey('navOpen', true))}
         >
@@ -216,14 +233,12 @@ export default function Navigation() {
         </IconButton>
 
         <Drawer
-          anchor="left"
+          anchor="right"
           open={navOpen}
           onClose={() => dispatch(setDesignSystemKey('navOpen', false))}
           ModalProps={{ keepMounted: true }}
         >
-          <Box sx={{mt:2}}>
-            {renderNavList}
-          </Box>
+          <Box sx={{ mt: 2 }}>{renderNavList}</Box>
         </Drawer>
       </>
     );

@@ -4,7 +4,6 @@
 import * as React from 'react';
 import Image from 'next/image';
 import { Box, Skeleton, Typography } from '@mui/material';
-import { TFrontmatter } from '../../../../gl-core/types';
 import { useIsMobile } from '../../../../gl-core';
 
 type Props = {
@@ -31,7 +30,7 @@ export default function FeaturedImage({
         <Image
           priority={priority}
           src={image}
-          alt={title}
+          alt={title || 'Goldlabel'}
           width={1200}
           height={630}
           style={{

@@ -76,15 +76,14 @@ export default function UserDialog() {
 
             {/* User or SignIn */}
             <Grid size={{ xs: 12, md: 6 }}>
+              
+
+              {user ? <User /> : <SignIn />}
+
               <Box sx={{ mt: 2 }}>
                 <MenuSystem />
               </Box>
 
-              {user ? <User /> : <SignIn />}
-
-              {/* ----------------------------------------- */}
-              {/* Interesting Ting Information */}
-              {/* ----------------------------------------- */}
               {ting && (
                 <Box sx={{ mt: 2, mx: 1 }}>
                   {/* Location */}
