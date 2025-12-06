@@ -17,6 +17,6 @@ Open Source and Free forever. It offers statically generated sites with Firestor
 
 [LinkOut title="Example API" icon="api" url="/api"]
 
-[GitHub url="https://github.com/users/javascript-pro/projects/8" label="Example Kanban Board"]
+[GitHub url="https://github.com/users/goldlabelapps/projects/3" label="Example Kanban Board"]
 
 [PageGrid pages="/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager"]

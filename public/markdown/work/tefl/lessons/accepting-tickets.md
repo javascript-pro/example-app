@@ -12,7 +12,7 @@ paywall: false
 
 > Lesson: How to Accept and Work on a Ticket
 
-[GitHub label="Example Kanban Board" url="https://github.com/users/javascript-pro/projects/8" ]
+[GitHub label="Example Kanban Board" url="https://github.com/users/goldlabelapps/projects/3" ]
 
 ### 1. Purpose of Accepting a Ticket
 
