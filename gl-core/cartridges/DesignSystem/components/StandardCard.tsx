@@ -36,14 +36,12 @@ export function StandardCard({
   const [expanded, setExpanded] = React.useState(false);
   const isMobile = useIsMobile();
 
-  function stripShortcodes(str: string | undefined) {
-    if (!str) return '';
-    return str.replace(/\[[^\]]*\]/g, '').trim();
-  }
-
   if (!content) return null;
 
   const { title, description, image, icon } = content;
+
+  // Shared image height for consistency
+  const MEDIA_HEIGHT = 200;
 
   return (
     <Card
@@ -91,7 +89,7 @@ export function StandardCard({
         }}
       />
 
-      {/* Desktop-only thumbnail when collapsed */}
+      {/* Thumbnail when collapsed */}
       {thumbnails && image && !expanded && !isMobile && (
         <CardMedia
           component="img"
@@ -99,7 +97,7 @@ export function StandardCard({
           alt={title}
           sx={{
             width: '100%',
-            height: 180,
+            height: MEDIA_HEIGHT,
             objectFit: 'cover',
             borderRadius: 0,
           }}
@@ -108,17 +106,23 @@ export function StandardCard({
 
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          {/* On mobile, show the image only inside the expanded section */}
+          {/* Expanded image — same height as thumbnail */}
           {image && (
             <CardMedia
               component="img"
               image={image}
               alt={title}
-              sx={{ borderRadius: 2, mb: 1, objectFit: 'cover' }}
+              sx={{
+                borderRadius: 2,
+                mb: 1,
+                width: '100%',
+                height: MEDIA_HEIGHT,
+                objectFit: 'cover',
+              }}
             />
           )}
 
-          <Typography variant="body1" sx={{}}>
+          <Typography variant="body1">
             {description}
           </Typography>
         </CardContent>
