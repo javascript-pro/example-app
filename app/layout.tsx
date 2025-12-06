@@ -27,7 +27,7 @@ export default async function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#001321" />
-        <link rel="icon" href={shortcutIcon} type="image/x-icon" />
+        <link rel="icon" href={shortcutIcon} />
         <link rel="shortcut icon" href={shortcutIcon} type="image/x-icon" />
         <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
       </head>

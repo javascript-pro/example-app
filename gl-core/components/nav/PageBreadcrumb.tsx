@@ -1,7 +1,7 @@
 // /Users/goldlabel/GitHub/example-app/gl-core/components/nav/PageBreadcrumb.tsx
 'use client';
 
-import React, { Suspense } from 'react';
+import React from 'react';
 import NextLink from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { Box, Link as MUILink, Typography } from '@mui/material';
@@ -37,30 +37,10 @@ const titleMap = buildTitleMap(globalNav);
  */
 function smartCapitalize(label: string): string {
   const knownAcronyms = [
-    'AI',
-    'API',
-    'SEO',
-    'UI',
-    'UX',
-    'HTTP',
-    'HTTPS',
-    'TEFL',
-    'APIS',
-    'GDPR',
-    'NPM',
-    'CV',
-    'JSON',
-    'SQL',
-    'CSS',
-    'HTML',
-    'JS',
-    'TS',
-    'NLP',
-    'ML',
-    'GPU',
-    'SSR',
-    'SSG',
+    'AI','API','SEO','UI','UX','HTTP','HTTPS','TEFL','APIS','GDPR','NPM','CV','JSON',
+    'SQL','CSS','HTML','JS','TS','NLP','ML','GPU','SSR','SSG',
   ];
+
   if (!label) return label;
 
   return label
@@ -77,14 +57,8 @@ function smartCapitalize(label: string): string {
  * Hidden / tracking parameters we never show in breadcrumbs
  */
 const HIDDEN_PARAMS = [
-  'fbclid',
-  'gclid',
-  'msclkid',
-  'utm_source',
-  'utm_medium',
-  'utm_campaign',
-  'utm_term',
-  'utm_content',
+  'fbclid','gclid','msclkid','utm_source','utm_medium','utm_campaign',
+  'utm_term','utm_content',
 ];
 
 function Params() {
@@ -134,11 +108,16 @@ export function PageBreadcrumb({
         flexWrap: 'wrap',
       }}
     >
-      <NextLink href="/" passHref legacyBehavior>
-        <MUILink underline="hover" color="primary" variant="caption">
-          {smartCapitalize(titleMap['/'] || 'Home')}
-        </MUILink>
-      </NextLink>
+      {/* HOME LINK — modern Next Link API */}
+      <MUILink
+        component={NextLink}
+        href="/"
+        underline="hover"
+        color="primary"
+        variant="caption"
+      >
+        {smartCapitalize(titleMap['/'] || 'Home')}
+      </MUILink>
 
       {segments.map((segment, index) => {
         const href = '/' + segments.slice(0, index + 1).join('/');
@@ -153,16 +132,21 @@ export function PageBreadcrumb({
         return (
           <React.Fragment key={href}>
             <Box sx={{ mx: 1 }}>/</Box>
+
             {isLast ? (
               <Typography variant="caption" sx={{ ml: 0.5 }}>
                 {displayLabel}
               </Typography>
             ) : (
-              <NextLink href={href} passHref legacyBehavior>
-                <MUILink underline="hover" color="primary" variant="caption">
-                  {displayLabel}
-                </MUILink>
-              </NextLink>
+              <MUILink
+                component={NextLink}
+                href={href}
+                underline="hover"
+                color="primary"
+                variant="caption"
+              >
+                {displayLabel}
+              </MUILink>
             )}
           </React.Fragment>
         );
